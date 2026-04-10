@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>죽전동 매물 모니터링 — 2026-04-10</title>
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Malgun Gothic', -apple-system, sans-serif; background: #f5f5f5; color: #333; }
+    .header {
+        background: linear-gradient(135deg, #1a73e8, #0d47a1);
+        color: white; padding: 30px 40px; text-align: center;
+    }
+    .header h1 { font-size: 28px; margin-bottom: 8px; }
+    .header .sub { opacity: 0.85; font-size: 14px; }
+    .stats {
+        display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;
+        padding: 20px 40px; background: white;
+        border-bottom: 1px solid #e0e0e0;
+    }
+    .stat-card {
+        text-align: center; padding: 15px 25px;
+        border-radius: 12px; min-width: 120px;
+    }
+    .stat-card.total { background: #e3f2fd; }
+    .stat-card.jeonse { background: #e8f5e9; }
+    .stat-card.wolse { background: #fff3e0; }
+    .stat-card.gone { background: #ffebee; }
+    .stat-card.new { background: #e8f5e9; }
+    .stat-card.history { background: #f3e5f5; }
+    .stat-card .number { font-size: 32px; font-weight: bold; }
+    .stat-card .label { font-size: 12px; color: #666; margin-top: 4px; }
+    .stat-card.total .number { color: #1a73e8; }
+    .stat-card.jeonse .number { color: #2e7d32; }
+    .stat-card.wolse .number { color: #e65100; }
+    .stat-card.gone .number { color: #c62828; }
+    .stat-card.new .number { color: #2e7d32; }
+    .stat-card.history .number { color: #7b1fa2; }
+    .container { max-width: 1400px; margin: 0 auto; padding: 20px; }
+    .section { background: white; border-radius: 12px; padding: 24px; margin-bottom: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    .section h2 { font-size: 20px; margin-bottom: 12px; }
+    .section .sub { color: #888; font-size: 13px; margin-bottom: 16px; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th { background: #fafafa; padding: 10px 12px; text-align: left; border-bottom: 2px solid #e0e0e0; font-weight: 600; white-space: nowrap; }
+    td { padding: 9px 12px; border-bottom: 1px solid #f0f0f0; }
+    tr:hover { background: #fafafa; }
+    tr.gone { background: #fff5f5; }
+    tr.gone:hover { background: #ffecec; }
+    tr.new { background: #f0fff0; }
+    tr.new:hover { background: #e0ffe0; }
+    .price { font-weight: bold; color: #1a73e8; white-space: nowrap; }
+    .desc { color: #888; max-width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .two-col { display: grid; grid-template-columns: 1fr 300px; gap: 20px; }
+    .complex-table td { padding: 6px 10px; }
+    .run-info { text-align: center; padding: 8px; color: #999; font-size: 12px; }
+    @media (max-width: 1000px) { .two-col { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="header">
+    <h1>죽전동 전/월세 매물 모니터링</h1>
+    <div class="sub">경기도 용인시 수지구 죽전동 | 2026-04-10 | 조회 2026-04-10 17:17</div>
+</div>
+
+<div class="stats">
+    <div class="stat-card total">
+        <div class="number">71</div>
+        <div class="label">현재 매물</div>
+    </div>
+    <div class="stat-card jeonse">
+        <div class="number">45</div>
+        <div class="label">전세</div>
+    </div>
+    <div class="stat-card wolse">
+        <div class="number">26</div>
+        <div class="label">월세</div>
+    </div>
+    <div class="stat-card new">
+        <div class="number">18</div>
+        <div class="label">오늘 새 매물</div>
+    </div>
+    <div class="stat-card gone">
+        <div class="number">0</div>
+        <div class="label">나간 매물</div>
+    </div>
+    <div class="stat-card history">
+        <div class="number">0</div>
+        <div class="label">누적 나간</div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="section"><h2>첫 실행</h2><p>오늘 매물을 기준점으로 저장했습니다. 내일부터 변동을 추적합니다.</p></div>
+    
+    
+        <div class="section">
+            <h2>🟢 오늘의 새 매물 — 18개</h2>
+            <p class="sub">오늘(2026-04-10) 네이버에 등록된 매물</p>
+            <table>
+                <thead><tr><th>유형</th><th>단지</th><th>동</th><th>가격(만원)</th><th>면적</th><th>층</th><th>등록일</th><th>설명</th></tr></thead>
+                <tbody><tr class="new">
+                <td>전세</td>
+                <td><strong>도담마을휴먼빌</strong></td>
+                <td>102동</td>
+                <td class="price">7억 5,000</td>
+                <td>112B</td>
+                <td>20/20</td>
+                <td>2026-04-10</td>
+                <td class="desc">귀한 탑층 전세, 올확장, 넓은 복층, 넓은 테라스, 특올수리, 전망최고</td>
+            </tr>
+<tr class="new">
+                <td>전세</td>
+                <td><strong>동성1차</strong></td>
+                <td>105동</td>
+                <td class="price">7억</td>
+                <td>108</td>
+                <td>중/18</td>
+                <td>2026-04-10</td>
+                <td class="desc">2년전 샷시포함 화이트톤 특올수리, 거실.방확장 </td>
+            </tr>
+<tr class="new">
+                <td>전세</td>
+                <td><strong>현대홈타운</strong></td>
+                <td>206동</td>
+                <td class="price">6억</td>
+                <td>218D</td>
+                <td>5/8</td>
+                <td>2026-04-10</td>
+                <td class="desc">숲세권 전망 좋아요  상권 입지 교통 병원마트 백화점 인테리어 기본</td>
+            </tr>
+<tr class="new">
+                <td>전세</td>
+                <td><strong>대지마을3차2단지현대홈타운</strong></td>
+                <td>504동</td>
+                <td class="price">5억 8,000</td>
+                <td>111</td>
+                <td>3/18</td>
+                <td>2026-04-10</td>
+                <td class="desc">탄천전망 기본수리해줌 지하엘베지정주차 오리역도보가 반려동물안됨</td>
+            </tr>
+<tr class="new">
+                <td>전세</td>
+                <td><strong>죽전아이뷰</strong></td>
+                <td>103동</td>
+                <td class="price">5억 8,000</td>
+                <td>77A</td>
+                <td>2/20</td>
+                <td>2026-04-10</td>
+                <td class="desc">샷시포함 올수리 첫입샷시,화장실,도배,장판,싱크대,탄성코트기타입주협의</td>
+            </tr>
+<tr class="new">
+                <td>전세</td>
+                <td><strong>대지마을현대홈타운2차</strong></td>
+                <td>201동</td>
+                <td class="price">5억 4,000</td>
+                <td>106</td>
+                <td>2/15</td>
+                <td>2026-04-10</td>
+                <td class="desc">34타입 올수리되어 매우 예쁘게 관리잘된집. 조용한전망.초.중학교앞</td>
+            </tr>
+<tr class="new">
+                <td>전세</td>
+                <td><strong>도담마을한양수자인</strong></td>
+                <td>404동</td>
+                <td class="price">5억 2,000</td>
+                <td>83</td>
+                <td>고/18</td>
+                <td>2026-04-10</td>
+                <td class="desc">최근 샷시포함 특올수리 주방포함확장 시스템에어컨 붙박이장 식세기 입주협의</td>
+            </tr>
+<tr class="new">
+                <td>전세</td>
+                <td><strong>동성1차</strong></td>
+                <td>107동</td>
+                <td class="price">5억 2,000</td>
+                <td>76</td>
+                <td>9/18</td>
+                <td>2026-04-10</td>
+                <td class="desc">8월입주,융무,전체 확장 올수리,</td>
+            </tr>
+<tr class="new">
+                <td>전세</td>
+                <td><strong>도담마을우미이노스빌</strong></td>
+                <td>301동</td>
+                <td class="price">5억</td>
+                <td>86</td>
+                <td>2/25</td>
+                <td>2026-04-10</td>
+                <td class="desc">26타입 올확장 샷시포함 특올수리 빠른입주가능. 에어컨3 붙박이옵션</td>
+            </tr>
+<tr class="new">
+                <td>전세</td>
+                <td><strong>벽산타운4단지</strong></td>
+                <td>402동</td>
+                <td class="price">5억</td>
+                <td>81</td>
+                <td>중/16</td>
+                <td>2026-04-10</td>
+                <td class="desc">융무 거실방확장 씽크욕실 신혼거주 아주깨끗</td>
+            </tr>
+<tr class="new">
+                <td>전세</td>
+                <td><strong>벽산타운4단지</strong></td>
+                <td>402동</td>
+                <td class="price">5억</td>
+                <td>81</td>
+                <td>고/16</td>
+                <td>2026-04-10</td>
+                <td class="desc">융무 거실방확장 씽크욕실원목올수리 신혼거주 아주깨끗</td>
+            </tr>
+<tr class="new">
+                <td>전세</td>
+                <td><strong>도담마을7단지뜨리에체</strong></td>
+                <td>704동</td>
+                <td class="price">4억 2,000</td>
+                <td>81A</td>
+                <td>중/20</td>
+                <td>2026-04-10</td>
+                <td class="desc">전망좋은중간라인집 기본타입 입주일협의</td>
+            </tr>
+<tr class="new">
+                <td>전세</td>
+                <td><strong>도담마을7단지뜨리에체</strong></td>
+                <td>702동</td>
+                <td class="price">3억 6,000</td>
+                <td>81A</td>
+                <td>고/20</td>
+                <td>2026-04-10</td>
+                <td class="desc">확트인앞뒤뻥뷰 샷시 욕실 씽크등 내부올수리 아주깨끗 초입로열동</td>
+            </tr>
+<tr class="new">
+                <td>월세</td>
+                <td><strong>죽전아이뷰</strong></td>
+                <td>103동</td>
+                <td class="price">3억 5,000 / 30</td>
+                <td>77A</td>
+                <td>2/20</td>
+                <td>2026-04-10</td>
+                <td class="desc">수리해줌 작은방확장 4월말입주가능</td>
+            </tr>
+<tr class="new">
+                <td>월세</td>
+                <td><strong>죽전아이뷰</strong></td>
+                <td>101동</td>
+                <td class="price">2억 / 110</td>
+                <td>78B</td>
+                <td>13/18</td>
+                <td>2026-04-10</td>
+                <td class="desc">남향  내부샤시교체 전체 올수리  초중고인접  오리역도보</td>
+            </tr>
+<tr class="new">
+                <td>월세</td>
+                <td><strong>벽산타운4단지</strong></td>
+                <td>402동</td>
+                <td class="price">1억 5,000 / 200</td>
+                <td>108</td>
+                <td>13/16</td>
+                <td>2026-04-10</td>
+                <td class="desc">남향 거실방확장 최근완벽한올수리 인덕션에어컨 주인거주 아주깨끗</td>
+            </tr>
+<tr class="new">
+                <td>월세</td>
+                <td><strong>진우8차엘리시온</strong></td>
+                <td>1동</td>
+                <td class="price">1억 5,000 / 100</td>
+                <td>147</td>
+                <td>중/8</td>
+                <td>2026-04-10</td>
+                <td class="desc">올수리된 깨끗한 월세</td>
+            </tr>
+<tr class="new">
+                <td>월세</td>
+                <td><strong>더리버하임</strong></td>
+                <td>102동</td>
+                <td class="price">1억 / 120</td>
+                <td>76</td>
+                <td>1/19</td>
+                <td>2026-04-10</td>
+                <td class="desc"></td>
+            </tr></tbody>
+            </table>
+        </div>
+    
+    
+
+    <div class="two-col">
+        <div class="section">
+            <h2>전체 매물 목록</h2>
+            <table>
+                <thead><tr><th>유형</th><th>단지</th><th>동</th><th>가격(만원)</th><th>면적</th><th>층</th><th>등록일</th><th>설명</th></tr></thead>
+                <tbody><tr>
+                <td>전세</td>
+                <td><strong>꽃메마을한라프로방스ll</strong></td>
+                <td>302동</td>
+                <td class="price">7억 5,000</td>
+                <td>151A</td>
+                <td>고/19</td>
+                <td>2026-04-02</td>
+                <td class="desc">최근샷시포함 전체특올수리 시스템에어컨4대포함  하시입주가능</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>도담마을푸르지오</strong></td>
+                <td>602동</td>
+                <td class="price">7억 5,000</td>
+                <td>149</td>
+                <td>16/20</td>
+                <td>2026-03-27</td>
+                <td class="desc">Lucky  화이트올수리  방2확장  뻥뷰  조율가능</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>도담마을휴먼빌</strong></td>
+                <td>102동</td>
+                <td class="price">7억 5,000</td>
+                <td>112B</td>
+                <td>20/20</td>
+                <td>2026-04-10</td>
+                <td class="desc">귀한 탑층 전세, 올확장, 넓은 복층, 넓은 테라스, 특올수리, 전망최고</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>죽전역월드메르디앙(주상복합)</strong></td>
+                <td>101동</td>
+                <td class="price">7억 5,000</td>
+                <td>184</td>
+                <td>고/20</td>
+                <td>2026-04-09</td>
+                <td class="desc">남향,올확장,전망 좋음, 주차장 엘베연결, 죽전역초역세권,넉넉한주차장</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>내대지마을건영캐스빌</strong></td>
+                <td>901동</td>
+                <td class="price">7억</td>
+                <td>197</td>
+                <td>20/20</td>
+                <td>2026-04-06</td>
+                <td class="desc">방,거실확장,폴딩도어,도배전등수리</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>동성1차</strong></td>
+                <td>105동</td>
+                <td class="price">7억</td>
+                <td>108</td>
+                <td>중/18</td>
+                <td>2026-04-10</td>
+                <td class="desc">2년전 샷시포함 화이트톤 특올수리, 거실.방확장 </td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>동성1차</strong></td>
+                <td>101동</td>
+                <td class="price">7억</td>
+                <td>171</td>
+                <td>12/18</td>
+                <td>2026-04-09</td>
+                <td class="desc">죽전역 도보 교통편리 샷시포함 올수리해줌</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>벽산타운1단지</strong></td>
+                <td>101동</td>
+                <td class="price">7억</td>
+                <td>143</td>
+                <td>10/18</td>
+                <td>2026-04-04</td>
+                <td class="desc">정남향 로얄동 방2확장 씽크대 욕실 전체도배는 새로해드립니다</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>죽전GS자이</strong></td>
+                <td>105동</td>
+                <td class="price">7억</td>
+                <td>217</td>
+                <td>6/9</td>
+                <td>2026-03-23</td>
+                <td class="desc">첫입주 특올수리 샷시제외 에어컨8대  럭셔리한 고품격 아파트 숲세권 뷰</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>죽전GS자이</strong></td>
+                <td>105동</td>
+                <td class="price">7억</td>
+                <td>217</td>
+                <td>6/9</td>
+                <td>2026-03-21</td>
+                <td class="desc">특올수리후 첫입주 시스템에어컨8대  환상적인숲세권뷰 </td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>죽전역월드메르디앙(주상복합)</strong></td>
+                <td>101동</td>
+                <td class="price">7억</td>
+                <td>160</td>
+                <td>고/20</td>
+                <td>2026-04-06</td>
+                <td class="desc">죽전역도보5분거리 확장수리됨 생활권 및 편리한교통 탄천공원등 전망 신세계</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>꽃메마을한라프로방스ll</strong></td>
+                <td>303동</td>
+                <td class="price">6억 8,000</td>
+                <td>152B</td>
+                <td>고/22</td>
+                <td>2026-04-01</td>
+                <td class="desc"></td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>내대지마을건영캐스빌</strong></td>
+                <td>903동</td>
+                <td class="price">6억 8,000</td>
+                <td>139</td>
+                <td>14/22</td>
+                <td>2026-03-17</td>
+                <td class="desc">입주협의.거실.방확장.도배새로.필요부분수리해드림.조망.주인거주</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>용인수지벽산타운2단지</strong></td>
+                <td>203동</td>
+                <td class="price">6억 7,000</td>
+                <td>109</td>
+                <td>1/18</td>
+                <td>2026-04-07</td>
+                <td class="desc">정상입주,남향,융무,전체확장,전체샷시,거실,방2개.욕실,수리후 첫입주,</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>e편한세상죽전프리미어포레</strong></td>
+                <td>105동</td>
+                <td class="price">6억 5,000</td>
+                <td>110A</td>
+                <td>9/20</td>
+                <td>2026-04-07</td>
+                <td class="desc">에어컨4대, 냉장고 장, 중문,조명,컨디션최상,빠를수록 좋습니다.</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>e편한세상죽전프리미어포레</strong></td>
+                <td>105동</td>
+                <td class="price">6억 5,000</td>
+                <td>110A</td>
+                <td>9/20</td>
+                <td>2026-04-07</td>
+                <td class="desc">에어컨4대, 냉장고 장, 중문,조명,컨디션최상,빠를수록 좋습니다.</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>꽃메마을아이파크</strong></td>
+                <td>101동</td>
+                <td class="price">6억 5,000</td>
+                <td>151</td>
+                <td>17/17</td>
+                <td>2026-04-07</td>
+                <td class="desc">TOP꼭대기 복층사용가능  사계절 탁트인 시원한전망  층산소음걱정없는층</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>용인수지벽산타운2단지</strong></td>
+                <td>202동</td>
+                <td class="price">6억 5,000</td>
+                <td>109</td>
+                <td>2/18</td>
+                <td>2026-04-01</td>
+                <td class="desc">3Bay 남향 바닥 욕실 싱크 교체 등 수리깨끗</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>용인수지벽산타운2단지</strong></td>
+                <td>202동</td>
+                <td class="price">6억 5,000</td>
+                <td>109</td>
+                <td>저/18</td>
+                <td>2026-04-01</td>
+                <td class="desc">3bay 남향 내부상태양호, 즉시입주</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>창죽마을월드메르디앙</strong></td>
+                <td>102동</td>
+                <td class="price">6억 5,000</td>
+                <td>180</td>
+                <td>14/15</td>
+                <td>2026-04-02</td>
+                <td class="desc">정남향 밝은집 주차왕편리 초중고바로앞 동천역8분</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>내대지마을건영캐스빌</strong></td>
+                <td>701동</td>
+                <td class="price">6억 3,000</td>
+                <td>139</td>
+                <td>저/20</td>
+                <td>2026-03-30</td>
+                <td class="desc">선호하는 로열동,안정적인층,최근 부분 수리하여 아주깨끗, 학군우수</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>내대지마을푸르지오</strong></td>
+                <td>401동</td>
+                <td class="price">6억 2,000</td>
+                <td>148</td>
+                <td>중/20</td>
+                <td>2026-04-07</td>
+                <td class="desc">정상입주 남향 생활편리시설 단지앞에  도배해드려요</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>꽃메마을아이파크</strong></td>
+                <td>102동</td>
+                <td class="price">6억</td>
+                <td>170</td>
+                <td>1/21</td>
+                <td>2026-03-19</td>
+                <td class="desc">층간소음걱정없고 2층높이위치 사생활보호 아이들뛰어놀고 노부모 모시기좋은집</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>도담마을롯데캐슬</strong></td>
+                <td>304동</td>
+                <td class="price">6억</td>
+                <td>159</td>
+                <td>8/20</td>
+                <td>2026-04-07</td>
+                <td class="desc">죽전역세권 정상입주 학교인접 조용한단지 남향</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>현대홈타운</strong></td>
+                <td>206동</td>
+                <td class="price">6억</td>
+                <td>218D</td>
+                <td>5/8</td>
+                <td>2026-04-10</td>
+                <td class="desc">숲세권 전망 좋아요  상권 입지 교통 병원마트 백화점 인테리어 기본</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>대지마을3차2단지현대홈타운</strong></td>
+                <td>504동</td>
+                <td class="price">5억 8,000</td>
+                <td>111</td>
+                <td>3/18</td>
+                <td>2026-04-10</td>
+                <td class="desc">탄천전망 기본수리해줌 지하엘베지정주차 오리역도보가 반려동물안됨</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>새터마을죽전힐스테이트</strong></td>
+                <td>714동</td>
+                <td class="price">5억 8,000</td>
+                <td>116</td>
+                <td>저/25</td>
+                <td>2026-04-09</td>
+                <td class="desc">최근전체특올수리,전체확장,ㄷ자형넓은주방,에어컨3대,식세기,인덕션유</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>죽전아이뷰</strong></td>
+                <td>103동</td>
+                <td class="price">5억 8,000</td>
+                <td>77A</td>
+                <td>2/20</td>
+                <td>2026-04-10</td>
+                <td class="desc">샷시포함 올수리 첫입샷시,화장실,도배,장판,싱크대,탄성코트기타입주협의</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>대지마을현대홈타운2차</strong></td>
+                <td>204동</td>
+                <td class="price">5억 6,000</td>
+                <td>106</td>
+                <td>17/20</td>
+                <td>2026-03-24</td>
+                <td class="desc">주인거주,남향,전망굿,집상태깨끗화장실1곳수리,6월중순이후이사희망</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>대주한신</strong></td>
+                <td>102동</td>
+                <td class="price">5억 5,000</td>
+                <td>98</td>
+                <td>저/19</td>
+                <td>2026-03-31</td>
+                <td class="desc">올수리 정상 죽전역세권 상권편리</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>롯데빌리지</strong></td>
+                <td>101동</td>
+                <td class="price">5억 5,000</td>
+                <td>188A</td>
+                <td>고/10</td>
+                <td>2026-03-21</td>
+                <td class="desc">숲세권햇살좋은전망 초등학교인근 상권입지좋음 7월23입주가능</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>현암마을동성2차</strong></td>
+                <td>105동</td>
+                <td class="price">5억 5,000</td>
+                <td>76</td>
+                <td>중/17</td>
+                <td>2026-04-08</td>
+                <td class="desc">최근특올수리 죽전초역세권 반려동물 안됨</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>대지마을현대홈타운2차</strong></td>
+                <td>201동</td>
+                <td class="price">5억 4,000</td>
+                <td>106</td>
+                <td>2/15</td>
+                <td>2026-04-10</td>
+                <td class="desc">34타입 올수리되어 매우 예쁘게 관리잘된집. 조용한전망.초.중학교앞</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>대주한신</strong></td>
+                <td>102동</td>
+                <td class="price">5억 3,000</td>
+                <td>98</td>
+                <td>19/19</td>
+                <td>2026-03-26</td>
+                <td class="desc">화장실 씽크대 방1확장 전체바닥마루 </td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>도담마을한양수자인</strong></td>
+                <td>404동</td>
+                <td class="price">5억 2,000</td>
+                <td>83</td>
+                <td>고/18</td>
+                <td>2026-04-10</td>
+                <td class="desc">최근 샷시포함 특올수리 주방포함확장 시스템에어컨 붙박이장 식세기 입주협의</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>동성1차</strong></td>
+                <td>107동</td>
+                <td class="price">5억 2,000</td>
+                <td>76</td>
+                <td>9/18</td>
+                <td>2026-04-10</td>
+                <td class="desc">8월입주,융무,전체 확장 올수리,</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>벽산타운4단지</strong></td>
+                <td>403동</td>
+                <td class="price">5억 2,000</td>
+                <td>81</td>
+                <td>5/16</td>
+                <td>2026-04-09</td>
+                <td class="desc"></td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>현암마을동성2차</strong></td>
+                <td>206동</td>
+                <td class="price">5억 2,000</td>
+                <td>76</td>
+                <td>4/17</td>
+                <td>2026-04-08</td>
+                <td class="desc">로얄동 초역세권 내부수리 되어 깨끗한 집 반려동물 안됨</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>도담마을우미이노스빌</strong></td>
+                <td>301동</td>
+                <td class="price">5억</td>
+                <td>86</td>
+                <td>2/25</td>
+                <td>2026-04-10</td>
+                <td class="desc">26타입 올확장 샷시포함 특올수리 빠른입주가능. 에어컨3 붙박이옵션</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>벽산타운4단지</strong></td>
+                <td>402동</td>
+                <td class="price">5억</td>
+                <td>81</td>
+                <td>중/16</td>
+                <td>2026-04-10</td>
+                <td class="desc">융무 거실방확장 씽크욕실 신혼거주 아주깨끗</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>벽산타운4단지</strong></td>
+                <td>402동</td>
+                <td class="price">5억</td>
+                <td>81</td>
+                <td>고/16</td>
+                <td>2026-04-10</td>
+                <td class="desc">융무 거실방확장 씽크욕실원목올수리 신혼거주 아주깨끗</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>벽산타운4단지</strong></td>
+                <td>401동</td>
+                <td class="price">5억</td>
+                <td>81</td>
+                <td>고/16</td>
+                <td>2026-04-08</td>
+                <td class="desc">융무,올수리,깔끔.방화장.화장실.씽크대,밝은집,동천역 오리역 도보이용</td>
+            </tr>
+<tr>
+                <td>월세</td>
+                <td><strong>꽃메마을현대홈타운4차4단지</strong></td>
+                <td>555동</td>
+                <td class="price">4억 9,000 / 40</td>
+                <td>111</td>
+                <td>중/19</td>
+                <td>2026-04-06</td>
+                <td class="desc">산과공원전망이끝내주는  정남향의 추천매물 엘리베이터와주차장바로연결</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>도담마을7단지뜨리에체</strong></td>
+                <td>704동</td>
+                <td class="price">4억 2,000</td>
+                <td>81A</td>
+                <td>중/20</td>
+                <td>2026-04-10</td>
+                <td class="desc">전망좋은중간라인집 기본타입 입주일협의</td>
+            </tr>
+<tr>
+                <td>월세</td>
+                <td><strong>용인수지벽산타운2단지</strong></td>
+                <td>202동</td>
+                <td class="price">4억 / 100</td>
+                <td>109</td>
+                <td>2/18</td>
+                <td>2026-04-07</td>
+                <td class="desc">3Bay 남향 방1확장 싱크 욕실 바닥</td>
+            </tr>
+<tr>
+                <td>월세</td>
+                <td><strong>용인수지벽산타운2단지</strong></td>
+                <td>202동</td>
+                <td class="price">4억 / 100</td>
+                <td>109</td>
+                <td>저/18</td>
+                <td>2026-04-01</td>
+                <td class="desc">3bay 남향 내부상태양호, 즉시입주</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>성현마을광명샤인빌</strong></td>
+                <td>402동</td>
+                <td class="price">3억 8,000</td>
+                <td>81</td>
+                <td>중/15</td>
+                <td>2026-03-24</td>
+                <td class="desc">기본,햇볕좋은 귀한 전세,날짜 조율가능</td>
+            </tr>
+<tr>
+                <td>월세</td>
+                <td><strong>죽전퍼스트하임</strong></td>
+                <td>204동</td>
+                <td class="price">3억 8,000 / 80</td>
+                <td>106</td>
+                <td>4/20</td>
+                <td>2026-03-26</td>
+                <td class="desc">집상태 깔끔하고 주차여유. 편의시설이용 및 교통 편리함</td>
+            </tr>
+<tr>
+                <td>전세</td>
+                <td><strong>도담마을7단지뜨리에체</strong></td>
+                <td>702동</td>
+                <td class="price">3억 6,000</td>
+                <td>81A</td>
+                <td>고/20</td>
+                <td>2026-04-10</td>
+                <td class="desc">확트인앞뒤뻥뷰 샷시 욕실 씽크등 내부올수리 아주깨끗 초입로열동</td>
+            </tr>
+<tr>
+                <td>월세</td>
+                <td><strong>죽전아이뷰</strong></td>
+                <td>103동</td>
+                <td class="price">3억 5,000 / 30</td>
+                <td>77A</td>
+                <td>2/20</td>
+                <td>2026-04-07</td>
+                <td class="desc">샷시, 화장실, 도배 , 장판, 싱크대, 탄성코트 올수리예정 3월말이후 </td>
+            </tr>
+<tr>
+                <td>월세</td>
+                <td><strong>죽전아이뷰</strong></td>
+                <td>103동</td>
+                <td class="price">3억 5,000 / 30</td>
+                <td>77A</td>
+                <td>2/20</td>
+                <td>2026-04-10</td>
+                <td class="desc">수리해줌 작은방확장 4월말입주가능</td>
+            </tr>
+<tr>
+                <td>월세</td>
+                <td><strong>내대지마을푸르지오</strong></td>
+                <td>402동</td>
+                <td class="price">3억 / 150</td>
+                <td>148</td>
+                <td>7/18</td>
+                <td>2026-04-02</td>
+                <td class="desc">올수리 깨끗합니다</td>
+            </tr>
+<tr>
+                <td>월세</td>
+                <td><strong>대지마을3차2단지현대홈타운</strong></td>
+                <td>505동</td>
+                <td class="price">3억 / 120</td>
+                <td>111</td>
+                <td>2/17</td>
+                <td>2026-04-08</td>
+                <td class="desc">방2확장,도배새로함,화장실부분수리,아주깨끗,주인거주,엘베연결됨,남향</td>
+            </tr>
+<tr>
+                <td>월세</td>
+                <td><strong>동성1차</strong></td>
+                <td>101동</td>
+                <td class="price">2억 5,000 / 140</td>
+                <td>171</td>
+                <td>2/18</td>
+                <td>2026-04-03</td>
+                <td class="desc">죽전역세권 남향 내부일부수리 작은방확장</td>
+            </tr>
+<tr>
+                <td>월세</td>
+                <td><strong>죽전아이뷰</strong></td>
+                <td>101동</td>
+                <td class="price">2억 5,000 / 80</td>
+                <td>78B</td>
+                <td>저/18</td>
+                <td>2026-04-06</td>
+                <td class="desc">하시입주, 올수리됨,오리역10분.초중고10분</td>
+            </tr>
+<tr>
+                <td>월세</td>
+                <td><strong>도담마을7단지뜨리에체</strong></td>
+                <td>705동</td>
+                <td class="price">2억 / 130</td>
+                <td>108</td>
+                <td>12/20</td>
+                <td>2026-03-31</td>
+                <td class="desc">남향 거실확장 내부수리 깨끗</td>
+            </tr>
+<tr>
+                <td>월세</td>
+                <td><strong>도담마을롯데캐슬</strong></td>
+                <td>304동</td>
+                <td class="price">2억 / 160</td>
+                <td>159</td>
+                <td>8/20</td>
+                <td>2026-04-07</td>
+                <td class="desc">죽전역세권 정상입주 학교인접 조용한단지 남향</td>
+            </tr>
+<tr>
+                <td>월세</td>
+                <td><strong>죽전아이뷰</strong></td>
+                <td>101동</td>
+                <td class="price">2억 / 110</td>
+                <td>78B</td>
+                <td>13/18</td>
+                <td>2026-04-10</td>
+                <td class="desc">남향  내부샤시교체 전체 올수리  초중고인접  오리역도보</td>
+            </tr>
+<tr>
+                <td>월세</td>
+                <td><strong>죽전리베니움(도시형)</strong></td>
+                <td>202동</td>
+                <td class="price">1억 7,500 / 25</td>
+                <td>40F</td>
+                <td>4/5</td>
+                <td>2026-04-04</td>
+                <td class="desc">죽전역세권 엘베 있는 대단지 빌라 주차시설 갖춤 반려동물 안됨</td>
+            </tr>
+<tr>
+                <td>월세</td>
+                <td><strong>벽산타운4단지</strong></td>
+                <td>402동</td>
+                <td class="price">1억 5,000 / 200</td>
+                <td>108</td>
+                <td>13/16</td>
+                <td>2026-04-10</td>
+                <td class="desc">남향 거실방확장 최근완벽한올수리 인덕션에어컨 주인거주 아주깨끗</td>
+            </tr>
+<tr>
+                <td>월세</td>
+                <td><strong>용인죽전동부센트레빌</strong></td>
+                <td>105동</td>
+                <td class="price">1억 5,000 / 150</td>
+                <td>108</td>
+                <td>1/17</td>
+                <td>2026-04-08</td>
+                <td class="desc">남향. 부분수리되어 깨끗. 초중학교 인접. 보증금조정가</td>
+            </tr>
+<tr>
+                <td>월세</td>
+                <td><strong>진우8차엘리시온</strong></td>
+                <td>1동</td>
+                <td class="price">1억 5,000 / 100</td>
+                <td>147</td>
+                <td>중/8</td>
+                <td>2026-04-10</td>
+                <td class="desc">올수리된 깨끗한 월세</td>
+            </tr>
+<tr>
+                <td>월세</td>
+                <td><strong>죽전역솔하임(도시형)</strong></td>
+                <td>1동</td>
+                <td class="price">1억 2,500 / 20</td>
+                <td>24A</td>
+                <td>저/20</td>
+                <td>2026-03-30</td>
+                <td class="desc">6월24일입주.버티목.보증보험가능.풀옵션원룸</td>
+            </tr>
+<tr>
+                <td>월세</td>
+                <td><strong>죽전역솔하임(도시형)</strong></td>
+                <td>1동</td>
+                <td class="price">1억 2,200 / 20</td>
+                <td>24A</td>
+                <td>고/20</td>
+                <td>2026-04-08</td>
+                <td class="desc">주거용 원룸 전입신고 확정일자 가능합니다</td>
+            </tr>
+<tr>
+                <td>월세</td>
+                <td><strong>더리버하임</strong></td>
+                <td>102동</td>
+                <td class="price">1억 / 120</td>
+                <td>76</td>
+                <td>1/19</td>
+                <td>2026-04-03</td>
+                <td class="desc">죽전역도보,7월24일입주,주차굿,이마트,탄천인접</td>
+            </tr>
+<tr>
+                <td>월세</td>
+                <td><strong>더리버하임</strong></td>
+                <td>102동</td>
+                <td class="price">1억 / 120</td>
+                <td>76</td>
+                <td>1/19</td>
+                <td>2026-04-10</td>
+                <td class="desc"></td>
+            </tr>
+<tr>
+                <td>월세</td>
+                <td><strong>도담마을우미이노스빌</strong></td>
+                <td>301동</td>
+                <td class="price">1억 / 150</td>
+                <td>86</td>
+                <td>저/25</td>
+                <td>2026-03-27</td>
+                <td class="desc">융자3.52억 남기는조건,올수리,신혼부부선호 </td>
+            </tr>
+<tr>
+                <td>월세</td>
+                <td><strong>죽전퍼스트하임</strong></td>
+                <td>203동</td>
+                <td class="price">1억 / 150</td>
+                <td>75</td>
+                <td>12/20</td>
+                <td>2026-03-27</td>
+                <td class="desc">외부샷시포함 올수리예정,채광좋은 남향,반려동물 안됨.</td>
+            </tr>
+<tr>
+                <td>월세</td>
+                <td><strong>현인마을e-편한세상2차</strong></td>
+                <td>204동</td>
+                <td class="price">1억 / 210</td>
+                <td>106</td>
+                <td>5/15</td>
+                <td>2026-04-09</td>
+                <td class="desc">확트인전망  확장깨끗수리 죽전초옆 교통요지 오리역동천역도보 탄천바로</td>
+            </tr>
+<tr>
+                <td>월세</td>
+                <td><strong>동성1차</strong></td>
+                <td>109동</td>
+                <td class="price">5,000 / 160</td>
+                <td>76</td>
+                <td>13/18</td>
+                <td>2026-04-08</td>
+                <td class="desc">남향으로 밝고 환한집, 올수리, 죽전역세권, 애완동물안됨</td>
+            </tr>
+<tr>
+                <td>월세</td>
+                <td><strong>도담마을죽전파크빌</strong></td>
+                <td>902동</td>
+                <td class="price">3,000 / 140</td>
+                <td>75</td>
+                <td>14/20</td>
+                <td>2026-04-09</td>
+                <td class="desc">관리잘된 깨끗한집,일부수리,교통 생활권 편리한 곳,융자없어요</td>
+            </tr></tbody>
+            </table>
+        </div>
+        <div class="section">
+            <h2>단지별 매물 수</h2>
+            <table class="complex-table">
+                <thead><tr><th>단지명</th><th>매물</th></tr></thead>
+                <tbody><tr><td>죽전아이뷰</td><td>5개</td></tr>
+<tr><td>벽산타운4단지</td><td>5개</td></tr>
+<tr><td>동성1차</td><td>5개</td></tr>
+<tr><td>용인수지벽산타운2단지</td><td>5개</td></tr>
+<tr><td>내대지마을건영캐스빌</td><td>3개</td></tr>
+<tr><td>도담마을7단지뜨리에체</td><td>3개</td></tr>
+<tr><td>죽전역솔하임(도시형)</td><td>2개</td></tr>
+<tr><td>도담마을우미이노스빌</td><td>2개</td></tr>
+<tr><td>대지마을현대홈타운2차</td><td>2개</td></tr>
+<tr><td>대지마을3차2단지현대홈타운</td><td>2개</td></tr>
+<tr><td>현암마을동성2차</td><td>2개</td></tr>
+<tr><td>도담마을롯데캐슬</td><td>2개</td></tr>
+<tr><td>꽃메마을아이파크</td><td>2개</td></tr>
+<tr><td>e편한세상죽전프리미어포레</td><td>2개</td></tr>
+<tr><td>죽전역월드메르디앙(주상복합)</td><td>2개</td></tr>
+<tr><td>더리버하임</td><td>2개</td></tr>
+<tr><td>내대지마을푸르지오</td><td>2개</td></tr>
+<tr><td>죽전퍼스트하임</td><td>2개</td></tr>
+<tr><td>꽃메마을한라프로방스ll</td><td>2개</td></tr>
+<tr><td>대주한신</td><td>2개</td></tr></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="run-info">
+    비교 기준: 없음(첫 실행) → 2026-04-10 | 페이지네이션 특성상 네이버 직접 검색 대비 소폭 차이 가능
+</div>
+</body>
+</html>
