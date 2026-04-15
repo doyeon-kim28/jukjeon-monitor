@@ -1,0 +1,47 @@
+name: Real Estate Monitor
+
+on:
+  schedule:
+    - cron: '0 22 * * *'  # 매일 07:00 KST (UTC 22:00)
+  workflow_dispatch:  # 수동 실행 (핸드폰 GitHub 앱에서도 가능)
+
+permissions:
+  contents: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Run monitor
+        env:
+          CI: 'true'
+          SNAPSHOT_DIR: '.'
+          EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          EMAIL_RECEIVER: ${{ secrets.EMAIL_RECEIVER }}
+          TZ: Asia/Seoul
+        run: python monitor.py
+
+      - name: Commit & push dashboard
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dashboard.html index.html latest_snapshot_*.json all_known_*.json || true
+          if git diff --cached --quiet; then
+            echo "변경 없음"
+          else
+            git commit -m "auto update $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
