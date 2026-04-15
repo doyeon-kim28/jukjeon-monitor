@@ -3,7 +3,7 @@
     "articleId": "2619773717",
     "tradeType": "A1",
     "tradeTypeName": "매매",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "꽃메마을현대홈타운4차3단지",
     "dongName": "435동",
     "dealPrice": 1030000000,
@@ -20,13 +20,13 @@
     "confirmDate": "2026-04-10",
     "firstSeen": "2026-04-11 18:55:47",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2619922394": {
     "articleId": "2619922394",
     "tradeType": "A1",
     "tradeTypeName": "매매",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "용인수지벽산타운2단지",
     "dongName": "209동",
     "dealPrice": 1300000000,
@@ -43,14 +43,14 @@
     "confirmDate": "2026-04-11",
     "firstSeen": "2026-04-11 18:55:47",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53",
-    "goneDate": "2026-04-11 19:00:59"
+    "lastSeen": "2026-04-15 19:06:35",
+    "goneDate": "2026-04-15 18:27:58"
   },
   "2619798795": {
     "articleId": "2619798795",
     "tradeType": "A1",
     "tradeTypeName": "매매",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "내대지마을건영캐스빌",
     "dongName": "903동",
     "dealPrice": 890000000,
@@ -67,8 +67,8 @@
     "confirmDate": "2026-04-11",
     "firstSeen": "2026-04-11 18:55:47",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53",
-    "goneDate": "2026-04-14 20:21:48"
+    "lastSeen": "2026-04-15 19:06:35",
+    "goneDate": "2026-04-15 18:49:06"
   },
   "2619686177": {
     "articleId": "2619686177",
@@ -98,7 +98,7 @@
     "articleId": "2619596684",
     "tradeType": "A1",
     "tradeTypeName": "매매",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "현암마을동성2차",
     "dongName": "206동",
     "dealPrice": 950000000,
@@ -115,14 +115,14 @@
     "confirmDate": "2026-04-10",
     "firstSeen": "2026-04-11 18:55:47",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53",
-    "goneDate": "2026-04-14 20:21:48"
+    "lastSeen": "2026-04-15 19:06:35",
+    "goneDate": "2026-04-15 18:29:25"
   },
   "2619582294": {
     "articleId": "2619582294",
     "tradeType": "A1",
     "tradeTypeName": "매매",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "현암마을동성2차",
     "dongName": "205동",
     "dealPrice": 1030000000,
@@ -139,14 +139,14 @@
     "confirmDate": "2026-04-10",
     "firstSeen": "2026-04-11 18:55:47",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53",
-    "goneDate": "2026-04-14 20:21:48"
+    "lastSeen": "2026-04-15 19:06:35",
+    "goneDate": "2026-04-15 18:49:06"
   },
   "2619469546": {
     "articleId": "2619469546",
     "tradeType": "A1",
     "tradeTypeName": "매매",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "현대1차",
     "dongName": "105동",
     "dealPrice": 700000000,
@@ -163,14 +163,14 @@
     "confirmDate": "2026-04-09",
     "firstSeen": "2026-04-11 18:55:47",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53",
-    "goneDate": "2026-04-14 20:21:48"
+    "lastSeen": "2026-04-15 19:06:35",
+    "goneDate": "2026-04-15 18:49:06"
   },
   "2619250894": {
     "articleId": "2619250894",
     "tradeType": "A1",
     "tradeTypeName": "매매",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "벽산타운1단지",
     "dongName": "104동",
     "dealPrice": 1430000000,
@@ -187,14 +187,14 @@
     "confirmDate": "2026-04-09",
     "firstSeen": "2026-04-11 18:55:47",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53",
-    "goneDate": "2026-04-14 20:21:48"
+    "lastSeen": "2026-04-15 19:06:35",
+    "goneDate": "2026-04-15 18:56:31"
   },
   "2619218601": {
     "articleId": "2619218601",
     "tradeType": "A1",
     "tradeTypeName": "매매",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "내대지마을푸르지오",
     "dongName": "402동",
     "dealPrice": 800000000,
@@ -210,15 +210,15 @@
     "description": "추천매물, 방 3개 확장형, 올수리 샷시제외, 전망좋은 뷰",
     "confirmDate": "2026-04-08",
     "firstSeen": "2026-04-11 18:55:47",
-    "status": "active",
-    "lastSeen": "2026-04-14 20:32:53",
-    "goneDate": "2026-04-14 20:21:48"
+    "status": "gone",
+    "lastSeen": "2026-04-15 18:56:31",
+    "goneDate": "2026-04-15 19:06:35"
   },
   "2618948819": {
     "articleId": "2618948819",
     "tradeType": "A1",
     "tradeTypeName": "매매",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "롯데빌리지",
     "dongName": "102동",
     "dealPrice": 650000000,
@@ -235,14 +235,14 @@
     "confirmDate": "2026-04-07",
     "firstSeen": "2026-04-11 18:55:47",
     "status": "gone",
-    "lastSeen": "2026-04-14 20:19:25",
-    "goneDate": "2026-04-14 20:21:48"
+    "lastSeen": "2026-04-15 18:56:31",
+    "goneDate": "2026-04-15 19:06:35"
   },
   "2618948428": {
     "articleId": "2618948428",
     "tradeType": "A1",
     "tradeTypeName": "매매",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "내대지마을진흥더블파크",
     "dongName": "1401동",
     "dealPrice": 720000000,
@@ -259,8 +259,8 @@
     "confirmDate": "2026-04-07",
     "firstSeen": "2026-04-11 18:55:47",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53",
-    "goneDate": "2026-04-14 20:21:48"
+    "lastSeen": "2026-04-15 19:06:35",
+    "goneDate": "2026-04-15 18:49:06"
   },
   "2618945099": {
     "articleId": "2618945099",
@@ -282,14 +282,15 @@
     "description": "",
     "confirmDate": "2026-04-07",
     "firstSeen": "2026-04-11 18:55:47",
-    "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "status": "gone",
+    "lastSeen": "2026-04-14 20:32:53",
+    "goneDate": "2026-04-15 18:27:58"
   },
   "2618861335": {
     "articleId": "2618861335",
     "tradeType": "B2",
     "tradeTypeName": "월세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "죽전아이뷰",
     "dongName": "103동",
     "dealPrice": 0,
@@ -306,7 +307,7 @@
     "confirmDate": "2026-04-07",
     "firstSeen": "2026-04-11 18:55:47",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2618930427": {
     "articleId": "2618930427",
@@ -424,9 +425,9 @@
     "description": "",
     "confirmDate": "2026-04-07",
     "firstSeen": "2026-04-11 19:00:59",
-    "status": "active",
+    "status": "gone",
     "lastSeen": "2026-04-14 20:32:53",
-    "goneDate": "2026-04-13 13:57:24"
+    "goneDate": "2026-04-15 18:27:58"
   },
   "2618944132": {
     "articleId": "2618944132",
@@ -449,8 +450,8 @@
     "confirmDate": "2026-04-07",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "gone",
-    "lastSeen": "2026-04-14 20:19:25",
-    "goneDate": "2026-04-14 20:21:48"
+    "lastSeen": "2026-04-15 18:43:00",
+    "goneDate": "2026-04-15 18:49:06"
   },
   "2619051219": {
     "articleId": "2619051219",
@@ -472,9 +473,9 @@
     "description": "전망굿, 화장실전체수리, 도배, 장판수리, 씽크대부분수리",
     "confirmDate": "2026-04-07",
     "firstSeen": "2026-04-11 19:00:59",
-    "status": "active",
+    "status": "gone",
     "lastSeen": "2026-04-14 20:32:53",
-    "goneDate": "2026-04-14 20:19:25"
+    "goneDate": "2026-04-15 18:27:58"
   },
   "2619753197": {
     "articleId": "2619753197",
@@ -552,7 +553,7 @@
     "articleId": "2619572836",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "동성1차",
     "dongName": "105동",
     "dealPrice": 0,
@@ -569,13 +570,13 @@
     "confirmDate": "2026-04-10",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2619752159": {
     "articleId": "2619752159",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "동성1차",
     "dongName": "101동",
     "dealPrice": 0,
@@ -591,8 +592,8 @@
     "description": "죽전역세권에 내부수부분수리깨끗,남향,입주협의",
     "confirmDate": "2026-04-10",
     "firstSeen": "2026-04-11 19:00:59",
-    "status": "gone",
-    "lastSeen": "2026-04-14 20:21:48",
+    "status": "active",
+    "lastSeen": "2026-04-15 19:06:35",
     "goneDate": "2026-04-14 20:32:53"
   },
   "2619677454": {
@@ -623,7 +624,7 @@
     "articleId": "2619633909",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "현대홈타운",
     "dongName": "206동",
     "dealPrice": 0,
@@ -639,9 +640,9 @@
     "description": "숲세권 전망 좋아요  상권 입지 교통 병원마트 백화점 인테리어 기본",
     "confirmDate": "2026-04-10",
     "firstSeen": "2026-04-11 19:00:59",
-    "status": "gone",
-    "lastSeen": "2026-04-14 20:21:48",
-    "goneDate": "2026-04-14 20:32:53"
+    "status": "active",
+    "lastSeen": "2026-04-15 19:06:35",
+    "goneDate": "2026-04-15 18:49:06"
   },
   "2619731777": {
     "articleId": "2619731777",
@@ -663,9 +664,9 @@
     "description": "34타입 올수리되어 매우 예쁘게 관리잘된집. 조용한전망.초.중학교앞",
     "confirmDate": "2026-04-10",
     "firstSeen": "2026-04-11 19:00:59",
-    "status": "active",
+    "status": "gone",
     "lastSeen": "2026-04-14 20:32:53",
-    "goneDate": "2026-04-14 20:19:25"
+    "goneDate": "2026-04-15 18:27:58"
   },
   "2619655009": {
     "articleId": "2619655009",
@@ -687,14 +688,15 @@
     "description": "샷시포함 올수리 첫입샷시,화장실,도배,장판,싱크대,탄성코트기타입주협의",
     "confirmDate": "2026-04-10",
     "firstSeen": "2026-04-11 19:00:59",
-    "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "status": "gone",
+    "lastSeen": "2026-04-14 20:32:53",
+    "goneDate": "2026-04-15 18:27:58"
   },
   "2619530435": {
     "articleId": "2619530435",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "동성1차",
     "dongName": "107동",
     "dealPrice": 0,
@@ -711,14 +713,14 @@
     "confirmDate": "2026-04-10",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53",
-    "goneDate": "2026-04-14 20:21:48"
+    "lastSeen": "2026-04-15 19:06:35",
+    "goneDate": "2026-04-15 18:43:00"
   },
   "2619732350": {
     "articleId": "2619732350",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "도담마을우미이노스빌",
     "dongName": "301동",
     "dealPrice": 0,
@@ -734,14 +736,15 @@
     "description": "26타입 올확장 샷시포함 특올수리 빠른입주가능. 에어컨3 붙박이옵션",
     "confirmDate": "2026-04-10",
     "firstSeen": "2026-04-11 19:00:59",
-    "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "status": "gone",
+    "lastSeen": "2026-04-15 18:56:31",
+    "goneDate": "2026-04-15 19:06:35"
   },
   "2619555391": {
     "articleId": "2619555391",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "내대지마을건영캐스빌",
     "dongName": "903동",
     "dealPrice": 0,
@@ -758,13 +761,13 @@
     "confirmDate": "2026-04-10",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2619257398": {
     "articleId": "2619257398",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "죽전아이뷰",
     "dongName": "102동",
     "dealPrice": 0,
@@ -781,13 +784,13 @@
     "confirmDate": "2026-04-09",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2619515184": {
     "articleId": "2619515184",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "벽산타운4단지",
     "dongName": "403동",
     "dealPrice": 0,
@@ -804,7 +807,7 @@
     "confirmDate": "2026-04-09",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53",
+    "lastSeen": "2026-04-15 19:06:35",
     "goneDate": "2026-04-13 14:02:57"
   },
   "2619060200": {
@@ -835,7 +838,7 @@
     "articleId": "2618910077",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "새터마을죽전힐스테이트",
     "dongName": "711동",
     "dealPrice": 0,
@@ -851,15 +854,15 @@
     "description": "기본상태 깨끗  로얄동 7월말",
     "confirmDate": "2026-04-07",
     "firstSeen": "2026-04-11 19:00:59",
-    "status": "gone",
-    "lastSeen": "2026-04-14 20:19:25",
-    "goneDate": "2026-04-14 20:21:48"
+    "status": "active",
+    "lastSeen": "2026-04-15 19:06:35",
+    "goneDate": "2026-04-15 18:49:06"
   },
   "2618898900": {
     "articleId": "2618898900",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "도담마을롯데캐슬",
     "dongName": "304동",
     "dealPrice": 0,
@@ -876,14 +879,14 @@
     "confirmDate": "2026-04-07",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "gone",
-    "lastSeen": "2026-04-14 20:21:48",
-    "goneDate": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 18:56:31",
+    "goneDate": "2026-04-15 19:06:35"
   },
   "2618879175": {
     "articleId": "2618879175",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "꽃메마을아이파크",
     "dongName": "101동",
     "dealPrice": 0,
@@ -899,8 +902,9 @@
     "description": "TOP꼭대기 복층사용가능  사계절 탁트인 시원한전망  층산소음걱정없는층",
     "confirmDate": "2026-04-07",
     "firstSeen": "2026-04-11 19:00:59",
-    "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "status": "gone",
+    "lastSeen": "2026-04-15 18:56:31",
+    "goneDate": "2026-04-15 19:06:35"
   },
   "2617869877": {
     "articleId": "2617869877",
@@ -946,14 +950,15 @@
     "description": "에어컨4대, 냉장고 장, 중문,조명,컨디션최상,빠를수록 좋습니다.",
     "confirmDate": "2026-04-07",
     "firstSeen": "2026-04-11 19:00:59",
-    "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "status": "gone",
+    "lastSeen": "2026-04-14 20:32:53",
+    "goneDate": "2026-04-15 18:27:58"
   },
   "2618629796": {
     "articleId": "2618629796",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "내대지마을건영캐스빌",
     "dongName": "901동",
     "dealPrice": 0,
@@ -970,13 +975,13 @@
     "confirmDate": "2026-04-06",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2619316204": {
     "articleId": "2619316204",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "죽전역월드메르디앙(주상복합)",
     "dongName": "101동",
     "dealPrice": 0,
@@ -993,13 +998,13 @@
     "confirmDate": "2026-04-09",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2616823843": {
     "articleId": "2616823843",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "도담마을푸르지오",
     "dongName": "602동",
     "dealPrice": 0,
@@ -1016,7 +1021,7 @@
     "confirmDate": "2026-03-27",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2618397829": {
     "articleId": "2618397829",
@@ -1046,7 +1051,7 @@
     "articleId": "2619560320",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "벽산타운4단지",
     "dongName": "402동",
     "dealPrice": 0,
@@ -1063,7 +1068,7 @@
     "confirmDate": "2026-04-10",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2619532915": {
     "articleId": "2619532915",
@@ -1093,7 +1098,7 @@
     "articleId": "2619598454",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "도담마을한양수자인",
     "dongName": "404동",
     "dealPrice": 0,
@@ -1110,13 +1115,13 @@
     "confirmDate": "2026-04-10",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2619562960": {
     "articleId": "2619562960",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "벽산타운4단지",
     "dongName": "402동",
     "dealPrice": 0,
@@ -1133,13 +1138,13 @@
     "confirmDate": "2026-04-10",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2619431477": {
     "articleId": "2619431477",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "새터마을죽전힐스테이트",
     "dongName": "714동",
     "dealPrice": 0,
@@ -1156,13 +1161,13 @@
     "confirmDate": "2026-04-09",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2619176510": {
     "articleId": "2619176510",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "벽산타운4단지",
     "dongName": "401동",
     "dealPrice": 0,
@@ -1179,13 +1184,13 @@
     "confirmDate": "2026-04-08",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2619126684": {
     "articleId": "2619126684",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "현암마을동성2차",
     "dongName": "105동",
     "dealPrice": 0,
@@ -1201,15 +1206,15 @@
     "description": "최근특올수리 죽전초역세권 반려동물 안됨",
     "confirmDate": "2026-04-08",
     "firstSeen": "2026-04-11 19:00:59",
-    "status": "gone",
-    "lastSeen": "2026-04-14 20:21:48",
+    "status": "active",
+    "lastSeen": "2026-04-15 19:06:35",
     "goneDate": "2026-04-14 20:32:53"
   },
   "2617625153": {
     "articleId": "2617625153",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "용인수지벽산타운2단지",
     "dongName": "202동",
     "dealPrice": 0,
@@ -1226,13 +1231,13 @@
     "confirmDate": "2026-04-01",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2618837121": {
     "articleId": "2618837121",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "내대지마을푸르지오",
     "dongName": "401동",
     "dealPrice": 0,
@@ -1249,7 +1254,7 @@
     "confirmDate": "2026-04-07",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2618566350": {
     "articleId": "2618566350",
@@ -1319,14 +1324,15 @@
     "description": "",
     "confirmDate": "2026-04-01",
     "firstSeen": "2026-04-11 19:00:59",
-    "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "status": "gone",
+    "lastSeen": "2026-04-14 20:32:53",
+    "goneDate": "2026-04-15 18:27:58"
   },
   "2617503951": {
     "articleId": "2617503951",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "대주한신",
     "dongName": "102동",
     "dealPrice": 0,
@@ -1343,13 +1349,14 @@
     "confirmDate": "2026-03-31",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35",
+    "goneDate": "2026-04-15 18:27:58"
   },
   "2616073106": {
     "articleId": "2616073106",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "대지마을현대홈타운2차",
     "dongName": "204동",
     "dealPrice": 0,
@@ -1366,7 +1373,7 @@
     "confirmDate": "2026-03-24",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2617080738": {
     "articleId": "2617080738",
@@ -1396,7 +1403,7 @@
     "articleId": "2615849517",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "죽전GS자이",
     "dongName": "105동",
     "dealPrice": 0,
@@ -1413,7 +1420,7 @@
     "confirmDate": "2026-03-23",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2615056219": {
     "articleId": "2615056219",
@@ -1435,14 +1442,15 @@
     "description": "층간소음걱정없고 2층높이위치 사생활보호 아이들뛰어놀고 노부모 모시기좋은집",
     "confirmDate": "2026-03-19",
     "firstSeen": "2026-04-11 19:00:59",
-    "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "status": "gone",
+    "lastSeen": "2026-04-14 20:32:53",
+    "goneDate": "2026-04-15 18:27:58"
   },
   "2615911762": {
     "articleId": "2615911762",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "성현마을광명샤인빌",
     "dongName": "402동",
     "dealPrice": 0,
@@ -1459,7 +1467,7 @@
     "confirmDate": "2026-03-24",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2614579231": {
     "articleId": "2614579231",
@@ -1529,14 +1537,15 @@
     "description": "에어컨4대, 냉장고 장, 중문,조명,컨디션최상,빠를수록 좋습니다.",
     "confirmDate": "2026-04-07",
     "firstSeen": "2026-04-11 19:00:59",
-    "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "status": "gone",
+    "lastSeen": "2026-04-14 20:32:53",
+    "goneDate": "2026-04-15 18:27:58"
   },
   "2617718472": {
     "articleId": "2617718472",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "용인수지벽산타운2단지",
     "dongName": "202동",
     "dealPrice": 0,
@@ -1553,13 +1562,13 @@
     "confirmDate": "2026-04-01",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2615500798": {
     "articleId": "2615500798",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "죽전GS자이",
     "dongName": "105동",
     "dealPrice": 0,
@@ -1576,13 +1585,13 @@
     "confirmDate": "2026-03-21",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2615494354": {
     "articleId": "2615494354",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "롯데빌리지",
     "dongName": "101동",
     "dealPrice": 0,
@@ -1599,7 +1608,7 @@
     "confirmDate": "2026-03-21",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2619247382": {
     "articleId": "2619247382",
@@ -1621,14 +1630,15 @@
     "description": "주거용 원룸 전입신고 확정일자 가능합니다",
     "confirmDate": "2026-04-08",
     "firstSeen": "2026-04-11 19:00:59",
-    "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "status": "gone",
+    "lastSeen": "2026-04-14 20:32:53",
+    "goneDate": "2026-04-15 18:27:58"
   },
   "2619679244": {
     "articleId": "2619679244",
     "tradeType": "B2",
     "tradeTypeName": "월세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "죽전아이뷰",
     "dongName": "101동",
     "dealPrice": 0,
@@ -1645,13 +1655,13 @@
     "confirmDate": "2026-04-10",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2619381111": {
     "articleId": "2619381111",
     "tradeType": "B2",
     "tradeTypeName": "월세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "도담마을죽전파크빌",
     "dongName": "902동",
     "dealPrice": 0,
@@ -1668,13 +1678,13 @@
     "confirmDate": "2026-04-09",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2619457766": {
     "articleId": "2619457766",
     "tradeType": "B2",
     "tradeTypeName": "월세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "현인마을e-편한세상2차",
     "dongName": "204동",
     "dealPrice": 0,
@@ -1691,7 +1701,7 @@
     "confirmDate": "2026-04-09",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2619211879": {
     "articleId": "2619211879",
@@ -1721,7 +1731,7 @@
     "articleId": "2619104652",
     "tradeType": "B2",
     "tradeTypeName": "월세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "대지마을3차2단지현대홈타운",
     "dongName": "505동",
     "dealPrice": 0,
@@ -1738,13 +1748,14 @@
     "confirmDate": "2026-04-08",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35",
+    "goneDate": "2026-04-15 18:56:31"
   },
   "2619105248": {
     "articleId": "2619105248",
     "tradeType": "B2",
     "tradeTypeName": "월세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "용인죽전동부센트레빌",
     "dongName": "105동",
     "dealPrice": 0,
@@ -1761,7 +1772,7 @@
     "confirmDate": "2026-04-08",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2618902983": {
     "articleId": "2618902983",
@@ -1791,7 +1802,7 @@
     "articleId": "2618800251",
     "tradeType": "B2",
     "tradeTypeName": "월세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "용인수지벽산타운2단지",
     "dongName": "202동",
     "dealPrice": 0,
@@ -1808,7 +1819,7 @@
     "confirmDate": "2026-04-07",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53",
+    "lastSeen": "2026-04-15 19:06:35",
     "goneDate": "2026-04-13 13:57:24"
   },
   "2618354611": {
@@ -1863,7 +1874,7 @@
     "articleId": "2619689293",
     "tradeType": "B2",
     "tradeTypeName": "월세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "진우8차엘리시온",
     "dongName": "1동",
     "dealPrice": 0,
@@ -1880,7 +1891,7 @@
     "confirmDate": "2026-04-10",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2618006080": {
     "articleId": "2618006080",
@@ -1934,7 +1945,7 @@
     "articleId": "2617966633",
     "tradeType": "B2",
     "tradeTypeName": "월세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "내대지마을푸르지오",
     "dongName": "402동",
     "dealPrice": 0,
@@ -1951,7 +1962,7 @@
     "confirmDate": "2026-04-02",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2618916509": {
     "articleId": "2618916509",
@@ -1997,14 +2008,15 @@
     "description": "남향 거실확장 내부수리 깨끗",
     "confirmDate": "2026-03-31",
     "firstSeen": "2026-04-11 19:00:59",
-    "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "status": "gone",
+    "lastSeen": "2026-04-14 20:32:53",
+    "goneDate": "2026-04-15 18:27:58"
   },
   "2618658757": {
     "articleId": "2618658757",
     "tradeType": "B2",
     "tradeTypeName": "월세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "죽전아이뷰",
     "dongName": "101동",
     "dealPrice": 0,
@@ -2021,13 +2033,13 @@
     "confirmDate": "2026-04-06",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2616796350": {
     "articleId": "2616796350",
     "tradeType": "B2",
     "tradeTypeName": "월세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "죽전퍼스트하임",
     "dongName": "203동",
     "dealPrice": 0,
@@ -2044,13 +2056,13 @@
     "confirmDate": "2026-03-27",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2616487417": {
     "articleId": "2616487417",
     "tradeType": "B2",
     "tradeTypeName": "월세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "죽전퍼스트하임",
     "dongName": "204동",
     "dealPrice": 0,
@@ -2067,14 +2079,14 @@
     "confirmDate": "2026-03-26",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53",
+    "lastSeen": "2026-04-15 19:06:35",
     "goneDate": "2026-04-13 13:57:24"
   },
   "2617167944": {
     "articleId": "2617167944",
     "tradeType": "B2",
     "tradeTypeName": "월세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "죽전역솔하임(도시형)",
     "dongName": "1동",
     "dealPrice": 0,
@@ -2091,7 +2103,7 @@
     "confirmDate": "2026-03-30",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2616691579": {
     "articleId": "2616691579",
@@ -2137,14 +2149,15 @@
     "description": "",
     "confirmDate": "2026-04-10",
     "firstSeen": "2026-04-11 19:00:59",
-    "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "status": "gone",
+    "lastSeen": "2026-04-14 20:32:53",
+    "goneDate": "2026-04-15 18:27:58"
   },
   "2619579313": {
     "articleId": "2619579313",
     "tradeType": "B2",
     "tradeTypeName": "월세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "죽전아이뷰",
     "dongName": "103동",
     "dealPrice": 0,
@@ -2161,13 +2174,13 @@
     "confirmDate": "2026-04-10",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2617717968": {
     "articleId": "2617717968",
     "tradeType": "B2",
     "tradeTypeName": "월세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "용인수지벽산타운2단지",
     "dongName": "202동",
     "dealPrice": 0,
@@ -2184,13 +2197,13 @@
     "confirmDate": "2026-04-01",
     "firstSeen": "2026-04-11 19:00:59",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2620131243": {
     "articleId": "2620131243",
     "tradeType": "A1",
     "tradeTypeName": "매매",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "꽃메마을한라프로방스ll",
     "dongName": "302동",
     "dealPrice": 850000000,
@@ -2203,17 +2216,17 @@
     "supplySpaceName": "151A",
     "floorInfo": "19/19",
     "direction": "ES",
-    "description": "급매,4월중약정서작성,기본형,2층같은복층,확트인골프장뷰,전망굿,일조량굿",
+    "description": "급매,기본형,2층같은복층,확트인골프장뷰,일조굿,4월중약정서6월중순잔금조건",
     "confirmDate": "2026-04-13",
     "firstSeen": "2026-04-13 13:57:24",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2619988481": {
     "articleId": "2619988481",
     "tradeType": "A1",
     "tradeTypeName": "매매",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "꽃메마을한라신영프로방스",
     "dongName": "602동",
     "dealPrice": 1450000000,
@@ -2229,15 +2242,15 @@
     "description": "단지내최고의전망 앞뒤뻥뷰최고 확장되어넓이감최고의 추천매물",
     "confirmDate": "2026-04-13",
     "firstSeen": "2026-04-13 13:57:24",
-    "status": "gone",
-    "lastSeen": "2026-04-14 20:21:48",
-    "goneDate": "2026-04-14 20:32:53"
+    "status": "active",
+    "lastSeen": "2026-04-15 19:06:35",
+    "goneDate": "2026-04-15 18:43:00"
   },
   "2618795910": {
     "articleId": "2618795910",
     "tradeType": "A1",
     "tradeTypeName": "매매",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "내대지마을진흥더블파크",
     "dongName": "1404동",
     "dealPrice": 720000000,
@@ -2253,9 +2266,9 @@
     "description": "숲세권 거실확장  최근 일부 인테리어 남향 햇살가득한집  입구동",
     "confirmDate": "2026-04-07",
     "firstSeen": "2026-04-13 13:57:24",
-    "status": "active",
-    "lastSeen": "2026-04-14 20:32:53",
-    "goneDate": "2026-04-14 20:21:48"
+    "status": "gone",
+    "lastSeen": "2026-04-15 18:56:31",
+    "goneDate": "2026-04-15 19:06:35"
   },
   "2620129636": {
     "articleId": "2620129636",
@@ -2333,7 +2346,7 @@
     "articleId": "2620038929",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "벽산타운3단지",
     "dongName": "301동",
     "dealPrice": 0,
@@ -2350,14 +2363,14 @@
     "confirmDate": "2026-04-13",
     "firstSeen": "2026-04-13 13:57:24",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53",
-    "goneDate": "2026-04-14 20:19:25"
+    "lastSeen": "2026-04-15 19:06:35",
+    "goneDate": "2026-04-15 18:56:31"
   },
   "2619990292": {
     "articleId": "2619990292",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "내대지마을건영캐스빌",
     "dongName": "903동",
     "dealPrice": 0,
@@ -2374,8 +2387,8 @@
     "confirmDate": "2026-04-13",
     "firstSeen": "2026-04-13 13:57:24",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53",
-    "goneDate": "2026-04-13 14:02:57"
+    "lastSeen": "2026-04-15 19:06:35",
+    "goneDate": "2026-04-15 18:34:58"
   },
   "2620001341": {
     "articleId": "2620001341",
@@ -2397,9 +2410,9 @@
     "description": "남향, 내부올수리 깨끗, 초중고 인접, 오리역세권",
     "confirmDate": "2026-04-13",
     "firstSeen": "2026-04-13 13:57:24",
-    "status": "active",
+    "status": "gone",
     "lastSeen": "2026-04-14 20:32:53",
-    "goneDate": "2026-04-13 14:02:57"
+    "goneDate": "2026-04-15 18:27:58"
   },
   "2620094122": {
     "articleId": "2620094122",
@@ -2429,7 +2442,7 @@
     "articleId": "2620082513",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "죽전아이뷰",
     "dongName": "102동",
     "dealPrice": 0,
@@ -2446,13 +2459,14 @@
     "confirmDate": "2026-04-13",
     "firstSeen": "2026-04-13 13:57:24",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35",
+    "goneDate": "2026-04-15 18:27:58"
   },
   "2618931206": {
     "articleId": "2618931206",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "용인수지벽산타운2단지",
     "dongName": "203동",
     "dealPrice": 0,
@@ -2469,14 +2483,14 @@
     "confirmDate": "2026-04-07",
     "firstSeen": "2026-04-13 13:57:24",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53",
+    "lastSeen": "2026-04-15 19:06:35",
     "goneDate": "2026-04-14 20:19:25"
   },
   "2619995377": {
     "articleId": "2619995377",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "벽산타운3단지",
     "dongName": "305동",
     "dealPrice": 0,
@@ -2492,14 +2506,15 @@
     "description": "샷시까지 최근 화이트 완벽한올수리 확장x 중문 붙박이장 신혼거주",
     "confirmDate": "2026-04-13",
     "firstSeen": "2026-04-13 13:57:24",
-    "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "status": "gone",
+    "lastSeen": "2026-04-15 18:56:31",
+    "goneDate": "2026-04-15 19:06:35"
   },
   "2620116437": {
     "articleId": "2620116437",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "도담마을롯데캐슬",
     "dongName": "303동",
     "dealPrice": 0,
@@ -2516,13 +2531,13 @@
     "confirmDate": "2026-04-13",
     "firstSeen": "2026-04-13 13:57:24",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2616503778": {
     "articleId": "2616503778",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "대주한신",
     "dongName": "102동",
     "dealPrice": 0,
@@ -2539,13 +2554,13 @@
     "confirmDate": "2026-03-26",
     "firstSeen": "2026-04-13 13:57:24",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2619561079": {
     "articleId": "2619561079",
     "tradeType": "B2",
     "tradeTypeName": "월세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "벽산타운4단지",
     "dongName": "402동",
     "dealPrice": 0,
@@ -2562,14 +2577,14 @@
     "confirmDate": "2026-04-10",
     "firstSeen": "2026-04-13 13:57:24",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53",
+    "lastSeen": "2026-04-15 19:06:35",
     "goneDate": "2026-04-13 14:02:57"
   },
   "2619989481": {
     "articleId": "2619989481",
     "tradeType": "B2",
     "tradeTypeName": "월세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "더리버하임",
     "dongName": "102동",
     "dealPrice": 0,
@@ -2586,14 +2601,14 @@
     "confirmDate": "2026-04-13",
     "firstSeen": "2026-04-13 13:57:24",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53",
-    "goneDate": "2026-04-13 14:02:57"
+    "lastSeen": "2026-04-15 19:06:35",
+    "goneDate": "2026-04-15 18:56:31"
   },
   "2619956784": {
     "articleId": "2619956784",
     "tradeType": "B2",
     "tradeTypeName": "월세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "도담마을우미이노스빌",
     "dongName": "301동",
     "dealPrice": 0,
@@ -2610,13 +2625,13 @@
     "confirmDate": "2026-04-13",
     "firstSeen": "2026-04-13 13:57:24",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2617999350": {
     "articleId": "2617999350",
     "tradeType": "B2",
     "tradeTypeName": "월세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "동성1차",
     "dongName": "101동",
     "dealPrice": 0,
@@ -2633,7 +2648,7 @@
     "confirmDate": "2026-04-03",
     "firstSeen": "2026-04-13 13:57:24",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2618462300": {
     "articleId": "2618462300",
@@ -2663,7 +2678,7 @@
     "articleId": "2620323371",
     "tradeType": "A1",
     "tradeTypeName": "매매",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "동성1차",
     "dongName": "103동",
     "dealPrice": 970000000,
@@ -2680,13 +2695,13 @@
     "confirmDate": "2026-04-14",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2620454478": {
     "articleId": "2620454478",
     "tradeType": "A1",
     "tradeTypeName": "매매",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "e편한세상죽전프리미어포레",
     "dongName": "105동",
     "dealPrice": 850000000,
@@ -2702,15 +2717,15 @@
     "description": "죽전동 신규아파트, 타워형, 시스템에어컨 중문 옵션, 세안고매매",
     "confirmDate": "2026-04-14",
     "firstSeen": "2026-04-14 20:19:25",
-    "status": "gone",
-    "lastSeen": "2026-04-14 20:21:48",
-    "goneDate": "2026-04-14 20:32:53"
+    "status": "active",
+    "lastSeen": "2026-04-15 19:06:35",
+    "goneDate": "2026-04-15 18:49:06"
   },
   "2620410086": {
     "articleId": "2620410086",
     "tradeType": "A1",
     "tradeTypeName": "매매",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "성현마을반도유보라",
     "dongName": "105동",
     "dealPrice": 730000000,
@@ -2726,15 +2741,15 @@
     "description": "넓은단지,조경최고단지  세안고",
     "confirmDate": "2026-04-14",
     "firstSeen": "2026-04-14 20:19:25",
-    "status": "gone",
-    "lastSeen": "2026-04-14 20:21:48",
-    "goneDate": "2026-04-14 20:32:53"
+    "status": "active",
+    "lastSeen": "2026-04-15 19:06:35",
+    "goneDate": "2026-04-15 18:49:06"
   },
   "2620452396": {
     "articleId": "2620452396",
     "tradeType": "A1",
     "tradeTypeName": "매매",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "도담마을한양수자인",
     "dongName": "403동",
     "dealPrice": 700000000,
@@ -2751,7 +2766,8 @@
     "confirmDate": "2026-04-14",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35",
+    "goneDate": "2026-04-15 18:56:31"
   },
   "2620305413": {
     "articleId": "2620305413",
@@ -2773,8 +2789,9 @@
     "description": "펜트급 멋진뷰, 구조변경 및 확장, 낙원같은 천상공원 , 광역버스바로 앞",
     "confirmDate": "2026-04-14",
     "firstSeen": "2026-04-14 20:19:25",
-    "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "status": "gone",
+    "lastSeen": "2026-04-14 20:32:53",
+    "goneDate": "2026-04-15 18:27:58"
   },
   "2620412673": {
     "articleId": "2620412673",
@@ -2796,8 +2813,9 @@
     "description": "특올수리 탄천가깝고 스타필드마켓 죽전역 신세계 가장가까움",
     "confirmDate": "2026-04-14",
     "firstSeen": "2026-04-14 20:19:25",
-    "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "status": "gone",
+    "lastSeen": "2026-04-14 20:32:53",
+    "goneDate": "2026-04-15 18:27:58"
   },
   "2620351636": {
     "articleId": "2620351636",
@@ -2843,15 +2861,15 @@
     "description": "중대형. 공원 조망. 부분 수리.주차 스트레스 없는 단지.주차 엘베 연결",
     "confirmDate": "2026-04-13",
     "firstSeen": "2026-04-14 20:19:25",
-    "status": "active",
+    "status": "gone",
     "lastSeen": "2026-04-14 20:32:53",
-    "goneDate": "2026-04-14 20:21:48"
+    "goneDate": "2026-04-15 18:27:58"
   },
   "2620414829": {
     "articleId": "2620414829",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "창죽마을월드메르디앙",
     "dongName": "102동",
     "dealPrice": 0,
@@ -2868,13 +2886,14 @@
     "confirmDate": "2026-04-14",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35",
+    "goneDate": "2026-04-15 18:43:00"
   },
   "2620386224": {
     "articleId": "2620386224",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "동성1차",
     "dongName": "102동",
     "dealPrice": 0,
@@ -2891,7 +2910,8 @@
     "confirmDate": "2026-04-14",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35",
+    "goneDate": "2026-04-15 18:49:06"
   },
   "2620425297": {
     "articleId": "2620425297",
@@ -2913,14 +2933,15 @@
     "description": "내부올수리,방확장,생활권 편리한 동,10월말이후,융무",
     "confirmDate": "2026-04-14",
     "firstSeen": "2026-04-14 20:19:25",
-    "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "status": "gone",
+    "lastSeen": "2026-04-14 20:32:53",
+    "goneDate": "2026-04-15 18:27:58"
   },
   "2620351041": {
     "articleId": "2620351041",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "대지마을3차2단지현대홈타운",
     "dongName": "504동",
     "dealPrice": 0,
@@ -2937,13 +2958,13 @@
     "confirmDate": "2026-04-14",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2620454336": {
     "articleId": "2620454336",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "죽전역월드메르디앙(주상복합)",
     "dongName": "101동",
     "dealPrice": 0,
@@ -2960,7 +2981,7 @@
     "confirmDate": "2026-04-14",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2620461681": {
     "articleId": "2620461681",
@@ -2982,14 +3003,15 @@
     "description": "입주일협의 시원한전망최고",
     "confirmDate": "2026-04-14",
     "firstSeen": "2026-04-14 20:19:25",
-    "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "status": "gone",
+    "lastSeen": "2026-04-14 20:32:53",
+    "goneDate": "2026-04-15 18:27:58"
   },
   "2620222092": {
     "articleId": "2620222092",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "도담마을한양수자인",
     "dongName": "401동",
     "dealPrice": 0,
@@ -3006,13 +3028,13 @@
     "confirmDate": "2026-04-13",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2620424542": {
     "articleId": "2620424542",
     "tradeType": "B2",
     "tradeTypeName": "월세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "대지마을3차2단지현대홈타운",
     "dongName": "507동",
     "dealPrice": 0,
@@ -3029,13 +3051,13 @@
     "confirmDate": "2026-04-14",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2620179075": {
     "articleId": "2620179075",
     "tradeType": "B2",
     "tradeTypeName": "월세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "새터마을죽전힐스테이트",
     "dongName": "716동",
     "dealPrice": 0,
@@ -3052,13 +3074,13 @@
     "confirmDate": "2026-04-13",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2620172112": {
     "articleId": "2620172112",
     "tradeType": "B2",
     "tradeTypeName": "월세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "동성1차",
     "dongName": "103동",
     "dealPrice": 0,
@@ -3075,13 +3097,13 @@
     "confirmDate": "2026-04-13",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2620436006": {
     "articleId": "2620436006",
     "tradeType": "B2",
     "tradeTypeName": "월세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "꽃메마을현대홈타운4차4단지",
     "dongName": "555동",
     "dealPrice": 0,
@@ -3098,13 +3120,13 @@
     "confirmDate": "2026-04-14",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2620220175": {
     "articleId": "2620220175",
     "tradeType": "B2",
     "tradeTypeName": "월세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "꽃메마을한라프로방스ll",
     "dongName": "303동",
     "dealPrice": 0,
@@ -3121,13 +3143,13 @@
     "confirmDate": "2026-04-13",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2620223310": {
     "articleId": "2620223310",
     "tradeType": "B2",
     "tradeTypeName": "월세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "도담마을한양수자인",
     "dongName": "401동",
     "dealPrice": 0,
@@ -3144,7 +3166,7 @@
     "confirmDate": "2026-04-13",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2620185086": {
     "articleId": "2620185086",
@@ -3166,8 +3188,9 @@
     "description": "복층계단과테라스가있는귀한탑층 빠른입주가능 매매대금협의 잔금전공사가능",
     "confirmDate": "2026-04-13",
     "firstSeen": "2026-04-14 20:21:48",
-    "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "status": "gone",
+    "lastSeen": "2026-04-15 18:29:25",
+    "goneDate": "2026-04-15 18:34:58"
   },
   "2620245425": {
     "articleId": "2620245425",
@@ -3189,14 +3212,15 @@
     "description": "내부올수리 왕깨끗 정상 스타필드죽전역5분 입주협의가능",
     "confirmDate": "2026-04-14",
     "firstSeen": "2026-04-14 20:21:48",
-    "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "status": "gone",
+    "lastSeen": "2026-04-14 20:32:53",
+    "goneDate": "2026-04-15 18:27:58"
   },
   "2620219615": {
     "articleId": "2620219615",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "꽃메마을한라프로방스ll",
     "dongName": "302동",
     "dealPrice": 0,
@@ -3213,6 +3237,668 @@
     "confirmDate": "2026-04-13",
     "firstSeen": "2026-04-14 20:21:48",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
+  },
+  "2620262966": {
+    "articleId": "2620262966",
+    "tradeType": "A1",
+    "tradeTypeName": "매매",
+    "realEstateTypeName": "아파트",
+    "complexName": "지오빌리지",
+    "dongName": "1동",
+    "dealPrice": 630000000,
+    "warrantyPrice": 0,
+    "rentPrice": 0,
+    "dealStr": "6억 3,000",
+    "warrantyStr": "-",
+    "rentStr": "-",
+    "exclusiveArea": 173.55,
+    "supplySpaceName": "208",
+    "floorInfo": "1/10",
+    "direction": "SS",
+    "description": "자연과 가까우면서 중심상권에 위치 밝고 쾌적 안정감있는 동네 대형평수",
+    "confirmDate": "2026-04-15",
+    "firstSeen": "2026-04-15 18:27:58",
+    "status": "active",
+    "lastSeen": "2026-04-15 19:06:35"
+  },
+  "2620626810": {
+    "articleId": "2620626810",
+    "tradeType": "A1",
+    "tradeTypeName": "매매",
+    "realEstateTypeName": "아파트",
+    "complexName": "꽃메마을한라신영프로방스",
+    "dongName": "604동",
+    "dealPrice": 1300000000,
+    "warrantyPrice": 0,
+    "rentPrice": 0,
+    "dealStr": "13억",
+    "warrantyStr": "-",
+    "rentStr": "-",
+    "exclusiveArea": 148.86,
+    "supplySpaceName": "182",
+    "floorInfo": "10/23",
+    "direction": "SS",
+    "description": "입주매물 최근전체올수리 신촌초인접 대형상권 광역교통망이용편리 죽전역세권",
+    "confirmDate": "2026-04-15",
+    "firstSeen": "2026-04-15 18:27:58",
+    "status": "gone",
+    "lastSeen": "2026-04-15 18:56:31",
+    "goneDate": "2026-04-15 19:06:35"
+  },
+  "2620644606": {
+    "articleId": "2620644606",
+    "tradeType": "A1",
+    "tradeTypeName": "매매",
+    "realEstateTypeName": "아파트",
+    "complexName": "현인마을e-편한세상2차",
+    "dongName": "201동",
+    "dealPrice": 1140000000,
+    "warrantyPrice": 0,
+    "rentPrice": 0,
+    "dealStr": "11억 4,000",
+    "warrantyStr": "-",
+    "rentStr": "-",
+    "exclusiveArea": 84.96,
+    "supplySpaceName": "106",
+    "floorInfo": "11/15",
+    "direction": "EE",
+    "description": "확장올수리 확트인 탄천전망 전세안고 오리역도보가",
+    "confirmDate": "2026-04-15",
+    "firstSeen": "2026-04-15 18:27:58",
+    "status": "active",
+    "lastSeen": "2026-04-15 19:06:35",
+    "goneDate": "2026-04-15 18:56:31"
+  },
+  "2620656906": {
+    "articleId": "2620656906",
+    "tradeType": "A1",
+    "tradeTypeName": "매매",
+    "realEstateTypeName": "아파트",
+    "complexName": "죽전역솔하임(도시형)",
+    "dongName": "1동",
+    "dealPrice": 310000000,
+    "warrantyPrice": 0,
+    "rentPrice": 0,
+    "dealStr": "3억 1,000",
+    "warrantyStr": "-",
+    "rentStr": "-",
+    "exclusiveArea": 33.9,
+    "supplySpaceName": "53D",
+    "floorInfo": "7/20",
+    "direction": "SS",
+    "description": "반전세안고 갭1억미만 실거주유예특례  계약갱신청구권은 사용함죽전역 10분",
+    "confirmDate": "2026-04-15",
+    "firstSeen": "2026-04-15 18:27:58",
+    "status": "gone",
+    "lastSeen": "2026-04-15 18:56:31",
+    "goneDate": "2026-04-15 19:06:35"
+  },
+  "2620643415": {
+    "articleId": "2620643415",
+    "tradeType": "A1",
+    "tradeTypeName": "매매",
+    "realEstateTypeName": "아파트",
+    "complexName": "용인수지벽산타운2단지",
+    "dongName": "209동",
+    "dealPrice": 1650000000,
+    "warrantyPrice": 0,
+    "rentPrice": 0,
+    "dealStr": "16억 5,000",
+    "warrantyStr": "-",
+    "rentStr": "-",
+    "exclusiveArea": 134.95,
+    "supplySpaceName": "168",
+    "floorInfo": "15/18",
+    "direction": "SS",
+    "description": "남향,거실과 방2확장,특올수리 샷시교체포함, 오리역,동천역도보가",
+    "confirmDate": "2026-04-15",
+    "firstSeen": "2026-04-15 18:27:58",
+    "status": "active",
+    "lastSeen": "2026-04-15 19:06:35"
+  },
+  "2620648333": {
+    "articleId": "2620648333",
+    "tradeType": "A1",
+    "tradeTypeName": "매매",
+    "realEstateTypeName": "아파트",
+    "complexName": "벽산타운4단지",
+    "dongName": "402동",
+    "dealPrice": 1070000000,
+    "warrantyPrice": 0,
+    "rentPrice": 0,
+    "dealStr": "10억 7,000",
+    "warrantyStr": "-",
+    "rentStr": "-",
+    "exclusiveArea": 84.8,
+    "supplySpaceName": "108",
+    "floorInfo": "1/16",
+    "direction": "SS",
+    "description": "남향,채광굿,화장실,씽크대,중문,주인거주로매우깨끗,초중고인접,동천역도보가",
+    "confirmDate": "2026-04-15",
+    "firstSeen": "2026-04-15 18:27:58",
+    "status": "active",
+    "lastSeen": "2026-04-15 19:06:35",
+    "goneDate": "2026-04-15 18:56:31"
+  },
+  "2620642836": {
+    "articleId": "2620642836",
+    "tradeType": "A1",
+    "tradeTypeName": "매매",
+    "realEstateTypeName": "아파트",
+    "complexName": "한솔노블빌리지",
+    "dongName": "112동",
+    "dealPrice": 1085000000,
+    "warrantyPrice": 0,
+    "rentPrice": 0,
+    "dealStr": "10억 8,500",
+    "warrantyStr": "-",
+    "rentStr": "-",
+    "exclusiveArea": 121.03,
+    "supplySpaceName": "153A",
+    "floorInfo": "1/10",
+    "direction": "SS",
+    "description": "남향 1층 밝고환한집,죽전역도보가,초,중,고인접,국제학교인접,다주택자매물",
+    "confirmDate": "2026-04-15",
+    "firstSeen": "2026-04-15 18:27:58",
+    "status": "active",
+    "lastSeen": "2026-04-15 19:06:35"
+  },
+  "2620643957": {
+    "articleId": "2620643957",
+    "tradeType": "A1",
+    "tradeTypeName": "매매",
+    "realEstateTypeName": "아파트",
+    "complexName": "벽산타운1단지",
+    "dongName": "105동",
+    "dealPrice": 1620000000,
+    "warrantyPrice": 0,
+    "rentPrice": 0,
+    "dealStr": "16억 2,000",
+    "warrantyStr": "-",
+    "rentStr": "-",
+    "exclusiveArea": 134.95,
+    "supplySpaceName": "163",
+    "floorInfo": "5/18",
+    "direction": "SS",
+    "description": "남향,최근특올수리 샷시포함 ,방2확장,동천역 오리역 도보가,주인거주",
+    "confirmDate": "2026-04-15",
+    "firstSeen": "2026-04-15 18:27:58",
+    "status": "active",
+    "lastSeen": "2026-04-15 19:06:35"
+  },
+  "2620647500": {
+    "articleId": "2620647500",
+    "tradeType": "A1",
+    "tradeTypeName": "매매",
+    "realEstateTypeName": "아파트",
+    "complexName": "벽산타운1단지",
+    "dongName": "107동",
+    "dealPrice": 1350000000,
+    "warrantyPrice": 0,
+    "rentPrice": 0,
+    "dealStr": "13억 5,000",
+    "warrantyStr": "-",
+    "rentStr": "-",
+    "exclusiveArea": 114.83,
+    "supplySpaceName": "143",
+    "floorInfo": "13/18",
+    "direction": "SS",
+    "description": "급매,정남향 방2확장 수리매우깨끗, 동천역 오리역 도보가,주인거주",
+    "confirmDate": "2026-04-15",
+    "firstSeen": "2026-04-15 18:27:58",
+    "status": "gone",
+    "lastSeen": "2026-04-15 18:56:31",
+    "goneDate": "2026-04-15 19:06:35"
+  },
+  "2620562183": {
+    "articleId": "2620562183",
+    "tradeType": "A1",
+    "tradeTypeName": "매매",
+    "realEstateTypeName": "아파트",
+    "complexName": "대지마을현대홈타운2차",
+    "dongName": "201동",
+    "dealPrice": 850000000,
+    "warrantyPrice": 0,
+    "rentPrice": 0,
+    "dealStr": "8억 5,000",
+    "warrantyStr": "-",
+    "rentStr": "-",
+    "exclusiveArea": 79.91,
+    "supplySpaceName": "106",
+    "floorInfo": "6/15",
+    "direction": "EE",
+    "description": "급매   수리는 기본수리만 된집",
+    "confirmDate": "2026-04-15",
+    "firstSeen": "2026-04-15 18:27:58",
+    "status": "active",
+    "lastSeen": "2026-04-15 19:06:35",
+    "goneDate": "2026-04-15 18:34:58"
+  },
+  "2620523883": {
+    "articleId": "2620523883",
+    "tradeType": "A1",
+    "tradeTypeName": "매매",
+    "realEstateTypeName": "",
+    "complexName": "현대홈타운",
+    "dongName": "203동",
+    "dealPrice": 650000000,
+    "warrantyPrice": 0,
+    "rentPrice": 0,
+    "dealStr": "6억 5,000",
+    "warrantyStr": "-",
+    "rentStr": "-",
+    "exclusiveArea": 180.08,
+    "supplySpaceName": "214D",
+    "floorInfo": "중/9",
+    "direction": "SS",
+    "description": "다주택자.초급매.65.전자계약가능.로얄동.로얄층.공원뷰.입주가능",
+    "confirmDate": "2026-04-15",
+    "firstSeen": "2026-04-15 18:27:58",
+    "status": "gone",
+    "lastSeen": "2026-04-15 18:43:00",
+    "goneDate": "2026-04-15 18:49:06"
+  },
+  "2620650446": {
+    "articleId": "2620650446",
+    "tradeType": "A1",
+    "tradeTypeName": "매매",
+    "realEstateTypeName": "아파트",
+    "complexName": "e편한세상죽전프리미어포레",
+    "dongName": "104동",
+    "dealPrice": 900000000,
+    "warrantyPrice": 0,
+    "rentPrice": 0,
+    "dealStr": "9억",
+    "warrantyStr": "-",
+    "rentStr": "-",
+    "exclusiveArea": 84.36,
+    "supplySpaceName": "110A",
+    "floorInfo": "중/19",
+    "direction": "SS",
+    "description": "시스템에어컨, 조망,채광 완전 좋음",
+    "confirmDate": "2026-04-15",
+    "firstSeen": "2026-04-15 18:27:58",
+    "status": "active",
+    "lastSeen": "2026-04-15 19:06:35",
+    "goneDate": "2026-04-15 18:29:25"
+  },
+  "2620555169": {
+    "articleId": "2620555169",
+    "tradeType": "B1",
+    "tradeTypeName": "전세",
+    "realEstateTypeName": "아파트",
+    "complexName": "현암마을동성2차",
+    "dongName": "206동",
+    "dealPrice": 0,
+    "warrantyPrice": 500000000,
+    "rentPrice": 0,
+    "dealStr": "-",
+    "warrantyStr": "5억",
+    "rentStr": "-",
+    "exclusiveArea": 60,
+    "supplySpaceName": "76",
+    "floorInfo": "7/17",
+    "direction": "EE",
+    "description": "올수리 정상 스타필드 죽전역세권",
+    "confirmDate": "2026-04-15",
+    "firstSeen": "2026-04-15 18:27:58",
+    "status": "active",
+    "lastSeen": "2026-04-15 19:06:35",
+    "goneDate": "2026-04-15 18:43:00"
+  },
+  "2620544005": {
+    "articleId": "2620544005",
+    "tradeType": "B1",
+    "tradeTypeName": "전세",
+    "realEstateTypeName": "아파트",
+    "complexName": "죽전아이뷰",
+    "dongName": "101동",
+    "dealPrice": 0,
+    "warrantyPrice": 480000000,
+    "rentPrice": 0,
+    "dealStr": "-",
+    "warrantyStr": "4억 8,000",
+    "rentStr": "-",
+    "exclusiveArea": 59.86,
+    "supplySpaceName": "78B",
+    "floorInfo": "13/18",
+    "direction": "SS",
+    "description": "수리잘된 , 보증금 조절 가",
+    "confirmDate": "2026-04-15",
+    "firstSeen": "2026-04-15 18:27:58",
+    "status": "active",
+    "lastSeen": "2026-04-15 19:06:35"
+  },
+  "2620652516": {
+    "articleId": "2620652516",
+    "tradeType": "B1",
+    "tradeTypeName": "전세",
+    "realEstateTypeName": "아파트",
+    "complexName": "현암마을동성2차",
+    "dongName": "206동",
+    "dealPrice": 0,
+    "warrantyPrice": 520000000,
+    "rentPrice": 0,
+    "dealStr": "-",
+    "warrantyStr": "5억 2,000",
+    "rentStr": "-",
+    "exclusiveArea": 60,
+    "supplySpaceName": "76",
+    "floorInfo": "4/17",
+    "direction": "EE",
+    "description": "로얄동 초역세권 내부수리 되어 깨끗한 집 반려동물 안됨",
+    "confirmDate": "2026-04-15",
+    "firstSeen": "2026-04-15 18:27:58",
+    "status": "active",
+    "lastSeen": "2026-04-15 19:06:35"
+  },
+  "2620619584": {
+    "articleId": "2620619584",
+    "tradeType": "B1",
+    "tradeTypeName": "전세",
+    "realEstateTypeName": "아파트",
+    "complexName": "대지마을3차2단지현대홈타운",
+    "dongName": "509동",
+    "dealPrice": 0,
+    "warrantyPrice": 650000000,
+    "rentPrice": 0,
+    "dealStr": "-",
+    "warrantyStr": "6억 5,000",
+    "rentStr": "-",
+    "exclusiveArea": 122.66,
+    "supplySpaceName": "153",
+    "floorInfo": "12/20",
+    "direction": "SS",
+    "description": "앞뒤동산뷰.  기본수리해줌. 지하엘베지정주차. 탄천오리역가까이",
+    "confirmDate": "2026-04-15",
+    "firstSeen": "2026-04-15 18:27:58",
+    "status": "active",
+    "lastSeen": "2026-04-15 19:06:35",
+    "goneDate": "2026-04-15 18:43:00"
+  },
+  "2620539806": {
+    "articleId": "2620539806",
+    "tradeType": "B1",
+    "tradeTypeName": "전세",
+    "realEstateTypeName": "아파트",
+    "complexName": "도담마을죽전파크빌",
+    "dongName": "902동",
+    "dealPrice": 0,
+    "warrantyPrice": 550000000,
+    "rentPrice": 0,
+    "dealStr": "-",
+    "warrantyStr": "5억 5,000",
+    "rentStr": "-",
+    "exclusiveArea": 84.88,
+    "supplySpaceName": "107",
+    "floorInfo": "3/20",
+    "direction": "WS",
+    "description": "내부올수리,방확장,생활권 편리한 동,10월말이후,융무",
+    "confirmDate": "2026-04-15",
+    "firstSeen": "2026-04-15 18:27:58",
+    "status": "active",
+    "lastSeen": "2026-04-15 19:06:35"
+  },
+  "2620480157": {
+    "articleId": "2620480157",
+    "tradeType": "B1",
+    "tradeTypeName": "전세",
+    "realEstateTypeName": "아파트",
+    "complexName": "죽전아이뷰",
+    "dongName": "103동",
+    "dealPrice": 0,
+    "warrantyPrice": 580000000,
+    "rentPrice": 0,
+    "dealStr": "-",
+    "warrantyStr": "5억 8,000",
+    "rentStr": "-",
+    "exclusiveArea": 59.86,
+    "supplySpaceName": "77A",
+    "floorInfo": "2/20",
+    "direction": "EE",
+    "description": "샷시포함 전체올수리중, 수리후 첫 입주, 조용한동, 죽전오리역세권",
+    "confirmDate": "2026-04-15",
+    "firstSeen": "2026-04-15 18:27:58",
+    "status": "active",
+    "lastSeen": "2026-04-15 19:06:35"
+  },
+  "2620651735": {
+    "articleId": "2620651735",
+    "tradeType": "B1",
+    "tradeTypeName": "전세",
+    "realEstateTypeName": "아파트",
+    "complexName": "꽃메마을아이파크",
+    "dongName": "102동",
+    "dealPrice": 0,
+    "warrantyPrice": 650000000,
+    "rentPrice": 0,
+    "dealStr": "-",
+    "warrantyStr": "6억 5,000",
+    "rentStr": "-",
+    "exclusiveArea": 134.96,
+    "supplySpaceName": "170",
+    "floorInfo": "저/21",
+    "direction": "SS",
+    "description": "하루종일밝고 적당한눈높이 눈이편안한집 입주일자협의가능합니다.",
+    "confirmDate": "2026-04-15",
+    "firstSeen": "2026-04-15 18:27:58",
+    "status": "active",
+    "lastSeen": "2026-04-15 19:06:35",
+    "goneDate": "2026-04-15 18:56:31"
+  },
+  "2620590630": {
+    "articleId": "2620590630",
+    "tradeType": "B1",
+    "tradeTypeName": "전세",
+    "realEstateTypeName": "아파트",
+    "complexName": "꽃메마을한라프로방스ll",
+    "dongName": "303동",
+    "dealPrice": 0,
+    "warrantyPrice": 650000000,
+    "rentPrice": 0,
+    "dealStr": "-",
+    "warrantyStr": "6억 5,000",
+    "rentStr": "-",
+    "exclusiveArea": 123.19,
+    "supplySpaceName": "152B",
+    "floorInfo": "고/22",
+    "direction": "ES",
+    "description": "",
+    "confirmDate": "2026-04-15",
+    "firstSeen": "2026-04-15 18:27:58",
+    "status": "gone",
+    "lastSeen": "2026-04-15 18:56:31",
+    "goneDate": "2026-04-15 19:06:35"
+  },
+  "2620640812": {
+    "articleId": "2620640812",
+    "tradeType": "B1",
+    "tradeTypeName": "전세",
+    "realEstateTypeName": "아파트",
+    "complexName": "현암마을동성2차",
+    "dongName": "206동",
+    "dealPrice": 0,
+    "warrantyPrice": 470000000,
+    "rentPrice": 0,
+    "dealStr": "-",
+    "warrantyStr": "4억 7,000",
+    "rentStr": "-",
+    "exclusiveArea": 60,
+    "supplySpaceName": "76",
+    "floorInfo": "중/17",
+    "direction": "EE",
+    "description": "일부수리  깔끔 조용한 라인 입주일 협의 가능",
+    "confirmDate": "2026-04-15",
+    "firstSeen": "2026-04-15 18:27:58",
+    "status": "active",
+    "lastSeen": "2026-04-15 19:06:35",
+    "goneDate": "2026-04-15 18:49:06"
+  },
+  "2620575399": {
+    "articleId": "2620575399",
+    "tradeType": "B1",
+    "tradeTypeName": "전세",
+    "realEstateTypeName": "아파트",
+    "complexName": "도담마을7단지뜨리에체",
+    "dongName": "704동",
+    "dealPrice": 0,
+    "warrantyPrice": 350000000,
+    "rentPrice": 0,
+    "dealStr": "-",
+    "warrantyStr": "3억 5,000",
+    "rentStr": "-",
+    "exclusiveArea": 59.99,
+    "supplySpaceName": "81A",
+    "floorInfo": "중/20",
+    "direction": "EE",
+    "description": "전망좋은중간라인집 방1확장  입주일협의",
+    "confirmDate": "2026-04-15",
+    "firstSeen": "2026-04-15 18:27:58",
+    "status": "active",
+    "lastSeen": "2026-04-15 19:06:35",
+    "goneDate": "2026-04-15 18:56:31"
+  },
+  "2618428498": {
+    "articleId": "2618428498",
+    "tradeType": "B1",
+    "tradeTypeName": "전세",
+    "realEstateTypeName": "아파트",
+    "complexName": "e편한세상죽전프리미어포레",
+    "dongName": "105동",
+    "dealPrice": 0,
+    "warrantyPrice": 650000000,
+    "rentPrice": 0,
+    "dealStr": "-",
+    "warrantyStr": "6억 5,000",
+    "rentStr": "-",
+    "exclusiveArea": 84.36,
+    "supplySpaceName": "110A",
+    "floorInfo": "9/20",
+    "direction": "ES",
+    "description": "애완동물안됨.깔끔하게 사용하실분 추천,에어컨4대,중문설치,실링펜설치",
+    "confirmDate": "2026-04-04",
+    "firstSeen": "2026-04-15 18:27:58",
+    "status": "active",
+    "lastSeen": "2026-04-15 19:06:35"
+  },
+  "2620504872": {
+    "articleId": "2620504872",
+    "tradeType": "B2",
+    "tradeTypeName": "월세",
+    "realEstateTypeName": "아파트",
+    "complexName": "죽전역솔하임(도시형)",
+    "dongName": "1동",
+    "dealPrice": 0,
+    "warrantyPrice": 122000000,
+    "rentPrice": 200000,
+    "dealStr": "-",
+    "warrantyStr": "1억 2,200",
+    "rentStr": "20",
+    "exclusiveArea": 15.02,
+    "supplySpaceName": "24A",
+    "floorInfo": "고/20",
+    "direction": "NN",
+    "description": "주거용 원룸 전입신고 확정일자 가능합니다",
+    "confirmDate": "2026-04-15",
+    "firstSeen": "2026-04-15 18:27:58",
+    "status": "active",
+    "lastSeen": "2026-04-15 19:06:35",
+    "goneDate": "2026-04-15 18:43:00"
+  },
+  "2620571053": {
+    "articleId": "2620571053",
+    "tradeType": "B2",
+    "tradeTypeName": "월세",
+    "realEstateTypeName": "아파트",
+    "complexName": "도담마을7단지뜨리에체",
+    "dongName": "705동",
+    "dealPrice": 0,
+    "warrantyPrice": 200000000,
+    "rentPrice": 1300000,
+    "dealStr": "-",
+    "warrantyStr": "2억",
+    "rentStr": "130",
+    "exclusiveArea": 84.97,
+    "supplySpaceName": "108",
+    "floorInfo": "12/20",
+    "direction": "SS",
+    "description": "남향 확장올수리 채광굿",
+    "confirmDate": "2026-04-15",
+    "firstSeen": "2026-04-15 18:27:58",
+    "status": "active",
+    "lastSeen": "2026-04-15 19:06:35"
+  },
+  "2620616788": {
+    "articleId": "2620616788",
+    "tradeType": "A1",
+    "tradeTypeName": "매매",
+    "realEstateTypeName": "아파트",
+    "complexName": "창죽마을월드메르디앙",
+    "dongName": "101동",
+    "dealPrice": 1490000000,
+    "warrantyPrice": 0,
+    "rentPrice": 0,
+    "dealStr": "14억 9,000",
+    "warrantyStr": "-",
+    "rentStr": "-",
+    "exclusiveArea": 153.69,
+    "supplySpaceName": "180",
+    "floorInfo": "4/10",
+    "direction": "SS",
+    "description": "오리동천역세권 대리석럭셔리인테리어 특깨끗 정남향채광굿",
+    "confirmDate": "2026-04-15",
+    "firstSeen": "2026-04-15 18:29:25",
+    "status": "active",
+    "lastSeen": "2026-04-15 19:06:35",
+    "goneDate": "2026-04-15 18:34:58"
+  },
+  "2620498532": {
+    "articleId": "2620498532",
+    "tradeType": "A1",
+    "tradeTypeName": "매매",
+    "realEstateTypeName": "아파트",
+    "complexName": "새터마을죽전힐스테이트",
+    "dongName": "708동",
+    "dealPrice": 880000000,
+    "warrantyPrice": 0,
+    "rentPrice": 0,
+    "dealStr": "8억 8,000",
+    "warrantyStr": "-",
+    "rentStr": "-",
+    "exclusiveArea": 84.99,
+    "supplySpaceName": "116",
+    "floorInfo": "5/25",
+    "direction": "SS",
+    "description": "입구동 방2확장 부분수리 주인거주 입주가능",
+    "confirmDate": "2026-04-15",
+    "firstSeen": "2026-04-15 18:34:58",
+    "status": "active",
+    "lastSeen": "2026-04-15 19:06:35",
+    "goneDate": "2026-04-15 18:56:31"
+  },
+  "2620470149": {
+    "articleId": "2620470149",
+    "tradeType": "A1",
+    "tradeTypeName": "매매",
+    "realEstateTypeName": "아파트",
+    "complexName": "현대홈타운",
+    "dongName": "206동",
+    "dealPrice": 720000000,
+    "warrantyPrice": 0,
+    "rentPrice": 0,
+    "dealStr": "7억 2,000",
+    "warrantyStr": "-",
+    "rentStr": "-",
+    "exclusiveArea": 179.49,
+    "supplySpaceName": "211E",
+    "floorInfo": "4/8",
+    "direction": "SS",
+    "description": "부분수리되어 깨끗하게 관리됨샷시, 화장실, 도배, 숲세권, 교통편리",
+    "confirmDate": "2026-04-15",
+    "firstSeen": "2026-04-15 18:43:00",
+    "status": "gone",
+    "lastSeen": "2026-04-15 18:56:31",
+    "goneDate": "2026-04-15 19:06:35"
   }
 }

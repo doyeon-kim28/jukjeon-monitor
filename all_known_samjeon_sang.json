@@ -3,7 +3,7 @@
     "articleId": "2620309293",
     "tradeType": "A1",
     "tradeTypeName": "매매",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "잠실아레나(주상복합)",
     "dongName": "1동",
     "dealPrice": 810000000,
@@ -20,13 +20,13 @@
     "confirmDate": "2026-04-14",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2618984375": {
     "articleId": "2618984375",
     "tradeType": "A1",
     "tradeTypeName": "매매",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "메트로샤인",
     "dongName": "1동",
     "dealPrice": 204000000,
@@ -43,13 +43,13 @@
     "confirmDate": "2026-04-07",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2620171161": {
     "articleId": "2620171161",
     "tradeType": "A1",
     "tradeTypeName": "매매",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "잠실아레나(주상복합)",
     "dongName": "1동",
     "dealPrice": 520000000,
@@ -66,14 +66,14 @@
     "confirmDate": "2026-04-13",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53",
+    "lastSeen": "2026-04-15 19:06:35",
     "goneDate": "2026-04-14 20:21:48"
   },
   "2618279273": {
     "articleId": "2618279273",
     "tradeType": "A1",
     "tradeTypeName": "매매",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "엘에스타워(도시형)",
     "dongName": "1동",
     "dealPrice": 210000000,
@@ -90,13 +90,13 @@
     "confirmDate": "2026-04-03",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2617125861": {
     "articleId": "2617125861",
     "tradeType": "A1",
     "tradeTypeName": "매매",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "잠실아레나(주상복합)",
     "dongName": "1동",
     "dealPrice": 800000000,
@@ -113,13 +113,13 @@
     "confirmDate": "2026-03-30",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2617265678": {
     "articleId": "2617265678",
     "tradeType": "B2",
     "tradeTypeName": "월세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "엘에스타워(도시형)",
     "dongName": "1동",
     "dealPrice": 0,
@@ -136,13 +136,13 @@
     "confirmDate": "2026-03-30",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2617263824": {
     "articleId": "2617263824",
     "tradeType": "B2",
     "tradeTypeName": "월세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "엘에스타워(도시형)",
     "dongName": "1동",
     "dealPrice": 0,
@@ -159,13 +159,13 @@
     "confirmDate": "2026-03-30",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2617575366": {
     "articleId": "2617575366",
     "tradeType": "B2",
     "tradeTypeName": "월세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "엘에스타워(도시형)",
     "dongName": "1동",
     "dealPrice": 0,
@@ -182,6 +182,6 @@
     "confirmDate": "2026-04-01",
     "firstSeen": "2026-04-14 20:21:48",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   }
 }

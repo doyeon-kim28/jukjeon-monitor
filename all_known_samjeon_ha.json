@@ -3,7 +3,7 @@
     "articleId": "2620309293",
     "tradeType": "A1",
     "tradeTypeName": "매매",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "잠실아레나(주상복합)",
     "dongName": "1동",
     "dealPrice": 810000000,
@@ -20,13 +20,13 @@
     "confirmDate": "2026-04-14",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2619880118": {
     "articleId": "2619880118",
     "tradeType": "A1",
     "tradeTypeName": "매매",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "집앤사하우립",
     "dongName": "1동",
     "dealPrice": 270000000,
@@ -43,13 +43,13 @@
     "confirmDate": "2026-04-11",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2620456671": {
     "articleId": "2620456671",
     "tradeType": "A1",
     "tradeTypeName": "매매",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "현대",
     "dongName": "101동",
     "dealPrice": 1500000000,
@@ -66,13 +66,13 @@
     "confirmDate": "2026-04-14",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2620171161": {
     "articleId": "2620171161",
     "tradeType": "A1",
     "tradeTypeName": "매매",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "잠실아레나(주상복합)",
     "dongName": "1동",
     "dealPrice": 520000000,
@@ -88,15 +88,15 @@
     "description": "초역세권, 채광과 전망 굿, 급매",
     "confirmDate": "2026-04-13",
     "firstSeen": "2026-04-14 20:19:25",
-    "status": "gone",
-    "lastSeen": "2026-04-14 20:21:48",
+    "status": "active",
+    "lastSeen": "2026-04-15 19:06:35",
     "goneDate": "2026-04-14 20:32:53"
   },
   "2618279273": {
     "articleId": "2618279273",
     "tradeType": "A1",
     "tradeTypeName": "매매",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "엘에스타워(도시형)",
     "dongName": "1동",
     "dealPrice": 210000000,
@@ -113,13 +113,13 @@
     "confirmDate": "2026-04-03",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2616819940": {
     "articleId": "2616819940",
     "tradeType": "A1",
     "tradeTypeName": "매매",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "경덕",
     "dongName": "101동",
     "dealPrice": 970000000,
@@ -136,13 +136,13 @@
     "confirmDate": "2026-03-27",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2620017421": {
     "articleId": "2620017421",
     "tradeType": "A1",
     "tradeTypeName": "매매",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "현대",
     "dongName": "101동",
     "dealPrice": 1600000000,
@@ -159,13 +159,13 @@
     "confirmDate": "2026-04-13",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2617125861": {
     "articleId": "2617125861",
     "tradeType": "A1",
     "tradeTypeName": "매매",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "잠실아레나(주상복합)",
     "dongName": "1동",
     "dealPrice": 800000000,
@@ -182,13 +182,13 @@
     "confirmDate": "2026-03-30",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2618367116": {
     "articleId": "2618367116",
     "tradeType": "A1",
     "tradeTypeName": "매매",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "현대",
     "dongName": "101동",
     "dealPrice": 1500000000,
@@ -205,7 +205,7 @@
     "confirmDate": "2026-04-04",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2615251655": {
     "articleId": "2615251655",
@@ -227,8 +227,9 @@
     "description": "9호선 삼전역 아파트 3룸 확트인 탄천뷰 로얄층 완전올수리",
     "confirmDate": "2026-03-20",
     "firstSeen": "2026-04-14 20:19:25",
-    "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "status": "gone",
+    "lastSeen": "2026-04-14 20:32:53",
+    "goneDate": "2026-04-15 19:06:35"
   },
   "2614760236": {
     "articleId": "2614760236",
@@ -250,8 +251,9 @@
     "description": "대로변에 위치한  오피스텔 개념의 원룸형 주택",
     "confirmDate": "2026-03-17",
     "firstSeen": "2026-04-14 20:19:25",
-    "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "status": "gone",
+    "lastSeen": "2026-04-14 20:32:53",
+    "goneDate": "2026-04-15 19:06:35"
   },
   "2619682653": {
     "articleId": "2619682653",
@@ -273,8 +275,9 @@
     "description": "9호선삼전역도보8분,수리되어 있어 깔끔한 편,입주협의가능,송파구 초입입지",
     "confirmDate": "2026-04-10",
     "firstSeen": "2026-04-14 20:19:25",
-    "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "status": "gone",
+    "lastSeen": "2026-04-14 20:32:53",
+    "goneDate": "2026-04-15 19:06:35"
   },
   "2618446870": {
     "articleId": "2618446870",
@@ -296,14 +299,15 @@
     "description": "9호선삼전역도보8분,준신축아파트,탄천뷰,채광굿,지하주차장,신혼강추,옵션",
     "confirmDate": "2026-04-04",
     "firstSeen": "2026-04-14 20:19:25",
-    "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "status": "gone",
+    "lastSeen": "2026-04-14 20:32:53",
+    "goneDate": "2026-04-15 19:06:35"
   },
   "2618257463": {
     "articleId": "2618257463",
     "tradeType": "A1",
     "tradeTypeName": "매매",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "현대",
     "dongName": "101동",
     "dealPrice": 1600000000,
@@ -320,13 +324,13 @@
     "confirmDate": "2026-04-03",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2617664206": {
     "articleId": "2617664206",
     "tradeType": "A1",
     "tradeTypeName": "매매",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "현대",
     "dongName": "101동",
     "dealPrice": 1500000000,
@@ -343,7 +347,7 @@
     "confirmDate": "2026-04-01",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2619825976": {
     "articleId": "2619825976",
@@ -365,8 +369,9 @@
     "description": "귀한 단지내1순위전세 입주협의 역세권 교통생활편리함",
     "confirmDate": "2026-04-11",
     "firstSeen": "2026-04-14 20:19:25",
-    "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "status": "gone",
+    "lastSeen": "2026-04-14 20:32:53",
+    "goneDate": "2026-04-15 19:06:35"
   },
   "2620218927": {
     "articleId": "2620218927",
@@ -388,14 +393,15 @@
     "description": "2년전 올수리 보일러배관까지 교체 신혼부부살기 좋음",
     "confirmDate": "2026-04-13",
     "firstSeen": "2026-04-14 20:19:25",
-    "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "status": "gone",
+    "lastSeen": "2026-04-14 20:32:53",
+    "goneDate": "2026-04-15 19:06:35"
   },
   "2618385081": {
     "articleId": "2618385081",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "현대",
     "dongName": "101동",
     "dealPrice": 0,
@@ -412,7 +418,7 @@
     "confirmDate": "2026-04-04",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2615870915": {
     "articleId": "2615870915",
@@ -434,14 +440,15 @@
     "description": "9호선삼전역도보7분,탄천뷰기 아주 멋짐,채광굿,올수리되어 아주 깔끔한집",
     "confirmDate": "2026-03-23",
     "firstSeen": "2026-04-14 20:19:25",
-    "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "status": "gone",
+    "lastSeen": "2026-04-14 20:32:53",
+    "goneDate": "2026-04-15 19:06:35"
   },
   "2615514283": {
     "articleId": "2615514283",
     "tradeType": "B1",
     "tradeTypeName": "전세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "현대",
     "dongName": "101동",
     "dealPrice": 0,
@@ -458,13 +465,13 @@
     "confirmDate": "2026-03-21",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2617263824": {
     "articleId": "2617263824",
     "tradeType": "B2",
     "tradeTypeName": "월세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "엘에스타워(도시형)",
     "dongName": "1동",
     "dealPrice": 0,
@@ -481,13 +488,13 @@
     "confirmDate": "2026-03-30",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2617265678": {
     "articleId": "2617265678",
     "tradeType": "B2",
     "tradeTypeName": "월세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "엘에스타워(도시형)",
     "dongName": "1동",
     "dealPrice": 0,
@@ -504,13 +511,13 @@
     "confirmDate": "2026-03-30",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2617575366": {
     "articleId": "2617575366",
     "tradeType": "B2",
     "tradeTypeName": "월세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "엘에스타워(도시형)",
     "dongName": "1동",
     "dealPrice": 0,
@@ -527,13 +534,13 @@
     "confirmDate": "2026-04-01",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2615230044": {
     "articleId": "2615230044",
     "tradeType": "B2",
     "tradeTypeName": "월세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "집앤사하우립",
     "dongName": "1동",
     "dealPrice": 0,
@@ -550,21 +557,21 @@
     "confirmDate": "2026-03-20",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2614814108": {
     "articleId": "2614814108",
     "tradeType": "B2",
     "tradeTypeName": "월세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "슬로우밀리355(도시형)",
     "dongName": "1동",
     "dealPrice": 0,
     "warrantyPrice": 100000000,
-    "rentPrice": 1000000,
+    "rentPrice": 950000,
     "dealStr": "-",
     "warrantyStr": "1억",
-    "rentStr": "100",
+    "rentStr": "95",
     "exclusiveArea": 26.02,
     "supplySpaceName": "34A",
     "floorInfo": "4/6",
@@ -573,13 +580,13 @@
     "confirmDate": "2026-03-18",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2614836655": {
     "articleId": "2614836655",
     "tradeType": "B2",
     "tradeTypeName": "월세",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "현대",
     "dongName": "101동",
     "dealPrice": 0,
@@ -596,13 +603,13 @@
     "confirmDate": "2026-03-18",
     "firstSeen": "2026-04-14 20:19:25",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
   },
   "2616578750": {
     "articleId": "2616578750",
     "tradeType": "A1",
     "tradeTypeName": "매매",
-    "realEstateTypeName": "",
+    "realEstateTypeName": "아파트",
     "complexName": "엘에스타워(도시형)",
     "dongName": "1동",
     "dealPrice": 195000000,
@@ -619,6 +626,52 @@
     "confirmDate": "2026-03-26",
     "firstSeen": "2026-04-14 20:21:48",
     "status": "active",
-    "lastSeen": "2026-04-14 20:32:53"
+    "lastSeen": "2026-04-15 19:06:35"
+  },
+  "2619579132": {
+    "articleId": "2619579132",
+    "tradeType": "B1",
+    "tradeTypeName": "전세",
+    "realEstateTypeName": "아파트",
+    "complexName": "현대",
+    "dongName": "101동",
+    "dealPrice": 0,
+    "warrantyPrice": 600000000,
+    "rentPrice": 0,
+    "dealStr": "-",
+    "warrantyStr": "6억",
+    "rentStr": "-",
+    "exclusiveArea": 80.01,
+    "supplySpaceName": "98",
+    "floorInfo": "10/10",
+    "direction": "SS",
+    "description": "9호선 삼전역. 탄천조망 남향 햇살 좋은집. 입주협의",
+    "confirmDate": "2026-04-10",
+    "firstSeen": "2026-04-15 19:06:35",
+    "status": "active",
+    "lastSeen": "2026-04-15 19:06:35"
+  },
+  "2620603591": {
+    "articleId": "2620603591",
+    "tradeType": "B1",
+    "tradeTypeName": "전세",
+    "realEstateTypeName": "아파트",
+    "complexName": "슬로우밀리611(도시형)",
+    "dongName": "1동",
+    "dealPrice": 0,
+    "warrantyPrice": 400000000,
+    "rentPrice": 0,
+    "dealStr": "-",
+    "warrantyStr": "4억",
+    "rentStr": "-",
+    "exclusiveArea": 24.56,
+    "supplySpaceName": "31B",
+    "floorInfo": "2/6",
+    "direction": "EN",
+    "description": "보증보험O, 풀옵션",
+    "confirmDate": "2026-04-15",
+    "firstSeen": "2026-04-15 19:06:35",
+    "status": "active",
+    "lastSeen": "2026-04-15 19:06:35"
   }
 }

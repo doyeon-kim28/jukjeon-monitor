@@ -95,12 +95,19 @@ def won_to_str(won):
 
 # ── 스크래핑 ──
 
-def _parse_article(a, sector):
-    """API 응답 항목 1개를 파싱. 지정 sector가 아니면 None."""
+TYPE_CODE_NAMES = {"A01": "아파트", "A04": "오피스텔", "A05": "단독/다가구", "B01": "빌라/연립", "B02": "원룸"}
+
+
+def _parse_article(a, sector, type_code_filter=None):
+    """API 응답 항목 1개를 파싱. 지정 sector/유형이 아니면 None."""
     rep = a.get("representativeArticleInfo", {})
     addr = rep.get("address", {})
     if addr.get("sector") != sector:
         return None
+    type_code = rep.get("realEstateType", "") or ""
+    if type_code_filter and type_code not in type_code_filter:
+        return None
+    type_name = TYPE_CODE_NAMES.get(type_code, type_code)
 
     aid = str(a.get("articleId", "") or rep.get("articleNumber", ""))
     if not aid:
@@ -116,7 +123,7 @@ def _parse_article(a, sector):
         "articleId": aid,
         "tradeType": trade_code,
         "tradeTypeName": TRADE_NAMES.get(trade_code, trade_code),
-        "realEstateTypeName": a.get("realEstateTypeName", ""),
+        "realEstateTypeName": type_name,
         "complexName": rep.get("complexName", a.get("articleName", "")),
         "dongName": rep.get("dongName", ""),
         "dealPrice": pi.get("dealPrice", 0) or 0,
@@ -141,7 +148,10 @@ def fetch_by_trade_type(page, trade_type, region):
     page_no = 0
     filt = dict(BASE_FILTER)
     filt["tradeTypes"] = [trade_type]
+    if region.get("realEstateTypes"):
+        filt["realEstateTypes"] = region["realEstateTypes"]
     sector = region["sector"]
+    type_code_filter = region.get("typeCodeFilter")
 
     while True:
         body = {
@@ -166,7 +176,7 @@ def fetch_by_trade_type(page, trade_type, region):
             break
 
         for a in items:
-            parsed = _parse_article(a, sector)
+            parsed = _parse_article(a, sector, type_code_filter)
             if parsed:
                 aid, article = parsed
                 if aid not in articles:
