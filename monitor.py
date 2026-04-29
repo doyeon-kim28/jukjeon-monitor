@@ -48,6 +48,8 @@ REGIONS = [
         "sector": "삼전동",
         "bbox": {"left": 127.085, "right": 127.110, "top": 37.515, "bottom": 37.504},
         "focus": "investment",
+        "realEstateTypes": ["A05", "B01", "B02"],  # 재개발 대상: 단독/다가구, 빌라/연립, 원룸만
+        "typeCodeFilter": ["A05", "B01", "B02"],
     },
     {
         "id": "samjeon_ha",
@@ -56,6 +58,8 @@ REGIONS = [
         "sector": "삼전동",
         "bbox": {"left": 127.085, "right": 127.110, "top": 37.504, "bottom": 37.493},
         "focus": "investment",
+        "realEstateTypes": ["A05", "B01", "B02"],  # 재개발 대상: 단독/다가구, 빌라/연립, 원룸만
+        "typeCodeFilter": ["A05", "B01", "B02"],
     },
 ]
 
