@@ -437,14 +437,16 @@ def _render_region_panel(region, data, today_str):
     is_investment = region.get("focus") == "investment"
 
     if is_investment:
-        deal_prices = [a["dealPrice"] for a in maemae.values() if a.get("dealPrice")]
+        # 현재 매물 + 나간 매물 히스토리 모두 포함해서 가격 계산
+        all_maemae = {**maemae, **{k: v for k, v in all_gone_history.items() if v.get("tradeType") == "A1"}}
+        deal_prices = [a["dealPrice"] for a in all_maemae.values() if a.get("dealPrice")]
         avg_p = won_to_str(sum(deal_prices) // len(deal_prices)) if deal_prices else "-"
         min_p = won_to_str(min(deal_prices)) if deal_prices else "-"
         max_p = won_to_str(max(deal_prices)) if deal_prices else "-"
         gone_maemae = sum(1 for a in all_gone_history.values() if a.get("tradeType") == "A1")
         stats_html = f"""
         <div class="stats">
-            <div class="stat-card maemae"><div class="number">{len(maemae)}</div><div class="label">매매 매물</div></div>
+            <div class="stat-card maemae"><div class="number">{len(maemae)}</div><div class="label">현재 매물</div></div>
             <div class="stat-card total"><div class="number">{avg_p}</div><div class="label">평균 매매가</div></div>
             <div class="stat-card new"><div class="number">{min_p}</div><div class="label">최저 매매가</div></div>
             <div class="stat-card wolse"><div class="number">{max_p}</div><div class="label">최고 매매가</div></div>
@@ -818,16 +820,14 @@ def main():
     for region in REGIONS:
         rid = region["id"]
         current = scraped.get(rid, {})
-        if not current:
-            print(f"  [{region['name']}] 매물 없음")
-            continue
 
         prev_snapshot, prev_time = load_previous(rid)
         new_today, gone = analyze(current, prev_snapshot, today_str)
 
         print(f"  [{region['name']}] 이전 {len(prev_snapshot) if prev_snapshot else 0} → 현재 {len(current)} | 새 {len(new_today)} | 나간 {len(gone)}")
 
-        save_snapshot(rid, current)
+        if current:
+            save_snapshot(rid, current)
 
         db = load_db(rid)
         update_db(db, current, gone)
