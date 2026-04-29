@@ -459,6 +459,18 @@ def _render_region_panel(region, data, today_str):
         </div>"""
         info_extra = "<p class='sub' style='color:#2e7d32;font-weight:600;margin-top:6px'>🏠 보금자리 찾기 — 새 매물 / 나간 매물 추적</p>"
 
+    filter_bar = f"""
+    <div class="filter-bar">
+        <span class="filter-label">거래 유형</span>
+        <select class="trade-filter" onchange="filterTrade(this, '{region['id']}')">
+            <option value="">전체</option>
+            <option value="매매">매매</option>
+            <option value="전세">전세</option>
+            <option value="월세">월세</option>
+        </select>
+        <span class="filter-count" id="filter-count-{region['id']}"></span>
+    </div>"""
+
     return f"""
     <div class="region-info">
         <h2>📍 {region['fullName']}</h2>
@@ -466,6 +478,7 @@ def _render_region_panel(region, data, today_str):
         {info_extra}
     </div>
     {stats_html}
+    {filter_bar}
     {first_run}
     {gone_section}
     {new_section}
@@ -600,10 +613,29 @@ def generate_html(region_data_map, today_str):
     .desc {{ color: #888; max-width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }}
     .two-col {{ display: grid; grid-template-columns: 1fr 300px; gap: 20px; }}
     .complex-table td {{ padding: 6px 10px; }}
+    .filter-bar {{
+        display: flex; align-items: center; gap: 14px;
+        background: white; padding: 14px 40px;
+        border-bottom: 1px solid #f0e0d0;
+    }}
+    .filter-label {{ font-size: 14px; font-weight: 600; color: #8a6e50; }}
+    .trade-filter {{
+        appearance: none; -webkit-appearance: none;
+        padding: 9px 42px 9px 18px; font-size: 14px; font-weight: 600;
+        border: 2px solid #f0a04b; border-radius: 22px;
+        background-color: white;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24'%3E%3Cpath fill='%23f0a04b' d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+        background-repeat: no-repeat; background-position: right 14px center;
+        color: #333; cursor: pointer; outline: none;
+    }}
+    .trade-filter:hover {{ border-color: #d97e20; background-color: #fef9f4; }}
+    .trade-filter:focus {{ border-color: #d97e20; box-shadow: 0 0 0 3px rgba(240,160,75,0.2); }}
+    .filter-count {{ font-size: 13px; color: #d97e20; font-weight: 600; }}
     .run-info {{ text-align: center; padding: 12px; color: #bbb; font-size: 11px; }}
     @media (max-width: 1000px) {{
         .two-col {{ grid-template-columns: 1fr; }}
         .header .jjuni-left, .header .jjuni-right {{ width: 60px; height: 60px; }}
+        .filter-bar {{ padding: 12px 20px; }}
     }}
 </style>
 </head>
@@ -634,6 +666,23 @@ document.querySelectorAll('.tab-btn').forEach(btn => {{
         document.getElementById('panel-' + tab).classList.add('active');
     }});
 }});
+
+function filterTrade(sel, regionId) {{
+    const val = sel.value;
+    const panel = document.getElementById('panel-' + regionId);
+    const rows = panel.querySelectorAll('table:not(.complex-table) tbody tr');
+    let visible = 0;
+    rows.forEach(tr => {{
+        const type = tr.cells[0] ? tr.cells[0].textContent.trim() : '';
+        const show = !val || type === val;
+        tr.style.display = show ? '' : 'none';
+        if (show) visible++;
+    }});
+    const countEl = document.getElementById('filter-count-' + regionId);
+    if (countEl) {{
+        countEl.textContent = val ? visible + '개' : '';
+    }}
+}}
 </script>
 </body>
 </html>"""
