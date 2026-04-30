@@ -20,9 +20,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install deps
-        run: |
-          pip install -r requirements.txt
-          python -m playwright install --with-deps chromium
+        run: pip install -r requirements.txt
 
       - name: Run monitor
         env:

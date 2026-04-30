@@ -21,14 +21,13 @@ from email.mime.multipart import MIMEMultipart
 from email.header import Header
 from collections import Counter
 
+try:
+    from curl_cffi import requests
+except ImportError:
+    import requests
+
 sys.stdout.reconfigure(encoding="utf-8")
 IS_CI = os.environ.get("CI") == "true"
-
-try:
-    from playwright.sync_api import sync_playwright
-except ImportError:
-    print("[오류] pip install playwright && python -m playwright install chromium")
-    exit(1)
 
 import config
 
@@ -79,14 +78,14 @@ BASE_FILTER = {
 TRADE_NAMES = {"A1": "매매", "B1": "전세", "B2": "월세"}
 DATA_DIR = config.SNAPSHOT_DIR
 
-JS_FETCH = """async (bodyStr) => {
-    const res = await fetch("/front-api/v1/article/boundedArticles", {
-        method: "POST",
-        headers: {"Content-Type": "application/json", "Accept": "application/json"},
-        body: bodyStr
-    });
-    return { status: res.status, body: await res.text() };
-}"""
+API_URL = "https://fin.land.naver.com/front-api/v1/article/boundedArticles"
+API_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+    "Referer": "https://fin.land.naver.com/",
+    "Accept": "application/json",
+    "Accept-Language": "ko-KR,ko;q=0.9",
+    "Content-Type": "application/json",
+}
 
 
 def won_to_str(won):
@@ -147,7 +146,7 @@ def _parse_article(a, sector, type_code_filter=None):
     }
 
 
-def fetch_by_trade_type(page, trade_type, region):
+def fetch_by_trade_type(session, trade_type, region):
     """특정 거래유형의 매물 전체 조회"""
     articles = {}
     last_info = []
@@ -168,11 +167,15 @@ def fetch_by_trade_type(page, trade_type, region):
             "articlePagingRequest": {"size": 20, "sort": "RECENT", "lastInfo": last_info},
         }
 
-        result = page.evaluate(JS_FETCH, json.dumps(body))
-        if result["status"] != 200:
+        try:
+            resp = session.post(API_URL, json=body, timeout=30)
+        except Exception as e:
+            print(f"  [요청 오류] {e}")
+            break
+        if resp.status_code != 200:
             break
 
-        data = json.loads(result["body"])
+        data = resp.json()
         r = data.get("result", {})
         items = r.get("list", [])
         has_next = r.get("hasNextPage", False)
@@ -199,45 +202,31 @@ def fetch_by_trade_type(page, trade_type, region):
 def run_scraping():
     """모든 지역 스크래핑. {region_id: {articleId: article}} 반환"""
     results = {}
-    launch_args = ["--disable-blink-features=AutomationControlled"]
-    if IS_CI:
-        launch_args += ["--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu"]
-    with sync_playwright() as p:
-        browser = p.chromium.launch(
-            headless=True,
-            args=launch_args,
-        )
-        ctx = browser.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-            locale="ko-KR",
-            viewport={"width": 1280, "height": 900},
-        )
-        ctx.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
-        page = ctx.new_page()
-        print("  브라우저 접속 중...")
-        for attempt in range(3):
-            try:
-                page.goto("https://fin.land.naver.com/", timeout=60000, wait_until="domcontentloaded")
-                break
-            except Exception as e:
-                if attempt == 2:
-                    raise
-                print(f"  접속 재시도 ({attempt+1}/3): {e}")
-                time.sleep(5)
-        page.wait_for_timeout(2000)
+    try:
+        from curl_cffi import requests as curl_req
+        session = curl_req.Session(impersonate="chrome120")
+    except ImportError:
+        session = requests.Session()
+    session.headers.update(API_HEADERS)
 
-        for region in REGIONS:
-            print(f"\n  === {region['name']} ===")
-            all_articles = {}
-            for trade_type in ["A1", "B1", "B2"]:
-                label = TRADE_NAMES.get(trade_type, trade_type)
-                articles = fetch_by_trade_type(page, trade_type, region)
-                all_articles.update(articles)
-                print(f"  [{label}] {len(articles)}개")
-                time.sleep(0.5)
-            results[region["id"]] = all_articles
+    print("  네이버 부동산 접속 중...")
+    try:
+        session.get("https://fin.land.naver.com/", timeout=30)
+    except Exception as e:
+        print(f"  [경고] 랜딩 접속 실패 (계속 진행): {e}")
+    time.sleep(1)
 
-        browser.close()
+    for region in REGIONS:
+        print(f"\n  === {region['name']} ===")
+        all_articles = {}
+        for trade_type in ["A1", "B1", "B2"]:
+            label = TRADE_NAMES.get(trade_type, trade_type)
+            articles = fetch_by_trade_type(session, trade_type, region)
+            all_articles.update(articles)
+            print(f"  [{label}] {len(articles)}개")
+            time.sleep(0.5)
+        results[region["id"]] = all_articles
+
     return results
 
 
