@@ -199,10 +199,13 @@ def fetch_by_trade_type(page, trade_type, region):
 def run_scraping():
     """모든 지역 스크래핑. {region_id: {articleId: article}} 반환"""
     results = {}
+    launch_args = ["--disable-blink-features=AutomationControlled"]
+    if IS_CI:
+        launch_args += ["--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu"]
     with sync_playwright() as p:
         browser = p.chromium.launch(
             headless=True,
-            args=["--disable-blink-features=AutomationControlled"],
+            args=launch_args,
         )
         ctx = browser.new_context(
             user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
@@ -212,7 +215,15 @@ def run_scraping():
         ctx.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
         page = ctx.new_page()
         print("  브라우저 접속 중...")
-        page.goto("https://fin.land.naver.com/", timeout=30000)
+        for attempt in range(3):
+            try:
+                page.goto("https://fin.land.naver.com/", timeout=60000, wait_until="domcontentloaded")
+                break
+            except Exception as e:
+                if attempt == 2:
+                    raise
+                print(f"  접속 재시도 ({attempt+1}/3): {e}")
+                time.sleep(5)
         page.wait_for_timeout(2000)
 
         for region in REGIONS:
